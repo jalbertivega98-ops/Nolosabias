@@ -1,0 +1,129 @@
+1
+00:00:00,117 --> 00:00:01,633
+Tu dedo no toca nada.
+
+2
+00:00:01,867 --> 00:00:03,872
+La pantalla de tu móvil
+no nota la presión:
+
+3
+00:00:03,892 --> 00:00:06,513
+puedes apretarla con una uña
+y no pasa nada.
+
+4
+00:00:06,533 --> 00:00:07,747
+¿Entonces qué nota?
+
+5
+00:00:07,767 --> 00:00:08,822
+Tu electricidad.
+
+6
+00:00:08,842 --> 00:00:10,980
+Bajo el cristal hay
+una rejilla invisible:
+
+7
+00:00:11,000 --> 00:00:14,233
+filas y columnas de un óxido
+transparente que conduce,
+
+8
+00:00:14,267 --> 00:00:16,113
+mil veces más fino que un pelo.
+
+9
+00:00:16,133 --> 00:00:18,013
+Las filas emiten un
+pequeño campo eléctrico
+
+10
+00:00:18,033 --> 00:00:19,555
+y las columnas lo recogen.
+
+11
+00:00:19,575 --> 00:00:22,138
+Cada cruce funciona como
+un diminuto condensador.
+
+12
+00:00:22,158 --> 00:00:24,680
+Y tu cuerpo, lleno de
+agua salada, conduce.
+
+13
+00:00:24,700 --> 00:00:27,080
+Al acercar el dedo, te
+llevas parte de ese campo…
+
+14
+00:00:27,100 --> 00:00:28,847
+y en ese cruce la señal cae.
+
+15
+00:00:28,867 --> 00:00:31,847
+Una variación de alrededor de
+una billonésima de faradio.
+
+16
+00:00:31,867 --> 00:00:35,080
+Un chip recorre todos los cruces
+más de cien veces por segundo,
+
+17
+00:00:35,100 --> 00:00:37,167
+y donde la señal baja…
+ahí está tu dedo.
+
+18
+00:00:37,467 --> 00:00:40,647
+Como mide cada cruce por separado,
+puede seguir varios dedos a la vez:
+
+19
+00:00:40,667 --> 00:00:42,167
+por eso puedes hacer
+zoom con dos.
+
+20
+00:00:42,467 --> 00:00:43,967
+¿Y por qué no funciona
+con guantes?
+
+21
+00:00:44,200 --> 00:00:46,900
+Porque la tela aísla:
+tu electricidad no llega.
+
+22
+00:00:47,000 --> 00:00:49,513
+Por la misma razón, las gotas
+de agua sí la confunden:
+
+23
+00:00:49,533 --> 00:00:50,533
+también conducen.
+
+24
+00:00:50,650 --> 00:00:53,700
+Y lo más curioso: funciona con
+cualquier cosa conductora y húmeda.
+
+25
+00:00:53,933 --> 00:00:55,480
+En Corea del Sur, un invierno,
+
+26
+00:00:55,500 --> 00:00:59,233
+se hizo famoso usar salchichas
+para manejar el móvil con guantes.
+
+27
+00:00:59,575 --> 00:01:00,300
+¿NO LO SABÍAS?
+
+28
+00:01:00,533 --> 00:01:02,500
+El mundo tiene más historias.
