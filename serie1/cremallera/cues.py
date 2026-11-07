@@ -1,0 +1,46 @@
+# Vídeo 29 · Cremallera — tiempos brutos de la toma A (alineación por palabra de Scribe)
+K = 1.2
+CUES = [
+ (0.16, 3.60, "Mira tu cremallera:\nseguramente pone tres letras…"),
+ (3.64, 4.88, "y hay una razón."),
+ (5.10, 6.88, "Pero primero,\n¿cómo funciona?"),
+ (7.12, 9.44, "Cada lado tiene\nuna fila de dientes."),
+ (9.52, 13.28, "Y cada diente tiene un bulto por arriba\ny un hueco por debajo."),
+ (13.36, 17.68, "Los dientes de un lado están desplazados\nmedio diente respecto a los del otro."),
+ (17.70, 20.96, "¿Y el tirador?\nPor dentro tiene forma de Y."),
+ (21.04, 25.44, "Al subirlo, los dos canales empujan\nlos dientes uno contra otro en ángulo,"),
+ (25.48, 28.24, "y cada bulto se mete en el hueco\ndel diente de enfrente,"),
+ (28.44, 32.16, "alternando: izquierda, derecha,\nizquierda, derecha."),
+ (32.40, 36.00, "Encajados así, no se pueden separar\ntirando hacia los lados."),
+ (36.08, 38.48, "Para abrirla, una cuña\nen el centro del tirador"),
+ (38.56, 41.76, "los empuja hacia fuera\ny los desengancha uno a uno."),
+ (42.00, 45.12, "Por eso, si se rompe un diente,\nla cremallera se abre por ahí."),
+ (45.60, 47.84, "La inventaron a finales\ndel siglo XIX,"),
+ (47.88, 50.88, "y la versión moderna\nllegó en 1913."),
+ (50.94, 52.16, "Y lo más curioso:"),
+ (52.24, 56.68, "casi la mitad de las cremalleras del mundo\nlas fabrica una sola empresa japonesa."),
+ (56.88, 60.16, "Mira la tuya:\nseguramente pone YKK."),
+ (61.09, 61.96, "¿NO LO SABÍAS?"),
+ (62.16, 64.40, "El mundo tiene más historias."),
+]
+MARKS = dict(hook=0.0, reason=3.64, how=5.1, sides=7.12, bump=9.52, hole=11.76, offset=13.36, slider=17.7, yshape=18.84, up=21.04, angle=24.8, fit=25.48,
+             alt=28.44, locked=32.4, pull=34.12, open=36.08, wedge=37.12, unhook=40.08, broken=42.0, opens=43.72, history=45.6, modern=47.88,
+             curious=50.94, half=52.24, japan=55.52, yours=56.88, ykk=58.96, brand=61.09, end=64.4)
+MUSIC = dict(seed=291, sections=[('hook', 'Dsus'), ('how', 'D'), ('bump', 'Bb'), ('slider', 'F'), ('up', 'D'), ('alt', 'Gm'), ('locked', 'Bb'),
+             ('open', 'C'), ('broken', 'Gm'), ('history', 'Bb'), ('curious', 'Gm'), ('yours', 'F'), ('ykk', 'D'), ('brand', 'END')],
+             shimmer=('how', 'end'), pulses=[('up', 'locked', .5)],
+             risers=['how', 'slider', 'curious', 'brand'],
+             hits=[(0.02, .9), ('slider', .5), ('locked', .6), ('broken', .6), ('ykk', .7), ('brand', .5)])
+SFX = [
+ ('cr_zip_a', 'hook', 0, .45),
+ ('whoosh_a', 'how', -.2, .4),
+ ('cr_click_a', 'fit', 0, .5),
+ ('cr_click_a', 'alt', .3, .45),
+ ('impact_a', 'locked', .2, .4),
+ ('cr_zip_a', 'open', .3, .4),
+ ('cr_snap_a', 'broken', .5, .5),
+ ('cr_zip_a', 'opens', 0, .35),
+ ('whoosh_a', 'curious', -.2, .45),
+ ('impact_b', 'ykk', 0, .45),
+ ('whoosh_a', 'brand', -.3, .6),
+]
