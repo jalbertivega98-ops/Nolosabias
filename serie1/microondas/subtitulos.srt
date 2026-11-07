@@ -1,0 +1,172 @@
+1
+00:00:00,133 --> 00:00:02,047
+1945.
+
+2
+00:00:02,067 --> 00:00:04,013
+Un ingeniero trabaja junto a un radar…
+
+3
+00:00:04,033 --> 00:00:06,200
+y la chocolatina de su bolsillo
+se derrite.
+
+4
+00:00:06,492 --> 00:00:07,647
+Así nació el microondas.
+
+5
+00:00:07,667 --> 00:00:08,880
+Lo usas cada día.
+
+6
+00:00:08,900 --> 00:00:10,947
+Pero ¿qué pasa de verdad ahí dentro?
+
+7
+00:00:10,967 --> 00:00:12,488
+Esta pieza es el magnetrón.
+
+8
+00:00:12,508 --> 00:00:15,013
+Lanza ondas de 2,45 gigahercios:
+
+9
+00:00:15,033 --> 00:00:16,713
+ondas de unos 12 centímetros.
+
+10
+00:00:16,733 --> 00:00:19,080
+Rebotan en las paredes de metal
+y llenan la caja.
+
+11
+00:00:19,100 --> 00:00:21,813
+La molécula de agua tiene un lado
+positivo y otro negativo.
+
+12
+00:00:21,833 --> 00:00:25,547
+El campo eléctrico de la onda cambia de sentido
+miles de millones de veces por segundo,
+
+13
+00:00:25,567 --> 00:00:28,613
+y las moléculas intentan girar con él,
+chocando con sus vecinas.
+
+14
+00:00:28,633 --> 00:00:30,155
+Ese zarandeo es calor.
+
+15
+00:00:30,175 --> 00:00:32,213
+¿Y no era una frecuencia
+especial del agua?
+
+16
+00:00:32,233 --> 00:00:35,138
+Es un mito: es una banda
+reservada para estos aparatos.
+
+17
+00:00:35,158 --> 00:00:36,980
+¿Y lo de que calienta
+de dentro hacia fuera?
+
+18
+00:00:37,000 --> 00:00:37,780
+Otro mito.
+
+19
+00:00:37,800 --> 00:00:40,013
+Las ondas apenas entran
+un par de centímetros;
+
+20
+00:00:40,033 --> 00:00:42,180
+el centro se calienta después,
+por contacto.
+
+21
+00:00:42,200 --> 00:00:43,980
+Entonces, ¿por qué gira el plato?
+
+22
+00:00:44,000 --> 00:00:47,233
+Porque las ondas, al cruzarse, forman
+zonas calientes y zonas frías fijas,
+
+23
+00:00:47,267 --> 00:00:49,547
+separadas unos 6 centímetros.
+
+24
+00:00:49,567 --> 00:00:51,472
+Girando, la comida pasa por todas.
+
+25
+00:00:51,492 --> 00:00:53,180
+¿Y por qué no se escapan
+por el cristal?
+
+26
+00:00:53,200 --> 00:00:54,447
+Por esta rejilla de metal:
+
+27
+00:00:54,467 --> 00:00:57,380
+sus agujeros son mucho más pequeños
+que la onda, y no cabe.
+
+28
+00:00:57,400 --> 00:01:00,605
+La luz, con ondas 200.000 veces
+más cortas, sí pasa.
+
+29
+00:01:00,625 --> 00:01:01,447
+¿Y el hielo?
+
+30
+00:01:01,467 --> 00:01:04,013
+Sus moléculas están atrapadas
+y casi no pueden girar:
+
+31
+00:01:04,033 --> 00:01:05,772
+por eso descongelar va a pulsos.
+
+32
+00:01:05,792 --> 00:01:07,247
+Y un truco: quita el plato,
+
+33
+00:01:07,267 --> 00:01:08,447
+mete una tableta de chocolate
+
+34
+00:01:08,467 --> 00:01:10,647
+y mide la distancia
+entre las zonas derretidas.
+
+35
+00:01:10,667 --> 00:01:12,488
+Multiplícala por dos
+y por la frecuencia…
+
+36
+00:01:12,508 --> 00:01:14,247
+y tendrás la velocidad de la luz.
+
+37
+00:01:14,267 --> 00:01:15,488
+Con chocolate.
+
+38
+00:01:15,508 --> 00:01:16,513
+¿NO LO SABÍAS?
+
+39
+00:01:16,533 --> 00:01:18,300
+El mundo tiene más historias.
