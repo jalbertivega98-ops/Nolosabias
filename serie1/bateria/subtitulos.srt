@@ -1,0 +1,107 @@
+1
+00:00:00,058 --> 00:00:04,183
+Cada vez que cargas el móvil, mueves decenas
+de miles de trillones de átomos de litio…
+
+2
+00:00:04,700 --> 00:00:05,767
+de un lado a otro.
+
+3
+00:00:06,050 --> 00:00:07,400
+¿Qué hay dentro de una batería?
+
+4
+00:00:07,533 --> 00:00:10,513
+Dos capas muy finas,
+enrolladas o apiladas:
+
+5
+00:00:10,533 --> 00:00:11,833
+una de grafito, el ánodo,
+
+6
+00:00:11,867 --> 00:00:14,080
+y otra de óxido metálico, el cátodo.
+
+7
+00:00:14,100 --> 00:00:16,913
+Entre ellas, un líquido y una
+lámina con poros diminutos:
+
+8
+00:00:16,933 --> 00:00:17,913
+el separador.
+
+9
+00:00:17,933 --> 00:00:20,433
+Al cargar, el cargador
+arranca electrones del cátodo,
+
+10
+00:00:20,467 --> 00:00:23,780
+y los iones de litio cruzan el líquido
+y se meten entre las capas del grafito,
+
+11
+00:00:23,800 --> 00:00:25,247
+como cartas en una baraja.
+
+12
+00:00:25,267 --> 00:00:26,913
+Al usar el móvil, pasa al revés:
+
+13
+00:00:26,933 --> 00:00:28,300
+los iones vuelven al cátodo,
+
+14
+00:00:28,333 --> 00:00:30,647
+y los electrones, que no pueden
+atravesar el separador,
+
+15
+00:00:30,667 --> 00:00:33,213
+dan la vuelta por fuera…
+por los circuitos del móvil.
+
+16
+00:00:33,233 --> 00:00:35,167
+Esa corriente es la que
+enciende tu pantalla.
+
+17
+00:00:35,467 --> 00:00:36,700
+¿Y por qué se gastan?
+
+18
+00:00:36,800 --> 00:00:40,080
+En cada carga, un poco de litio
+se queda atrapado y ya no vuelve.
+
+19
+00:00:40,100 --> 00:00:42,833
+Por eso, tras unos cientos de ciclos,
+la batería dura menos.
+
+20
+00:00:43,117 --> 00:00:46,647
+Y lo más curioso: el litio es
+el metal más ligero que existe.
+
+21
+00:00:46,667 --> 00:00:48,280
+Tan ligero que flota en el agua…
+
+22
+00:00:48,300 --> 00:00:50,967
+y tan reactivo que, al tocarla,
+empieza a burbujear.
+
+23
+00:00:51,717 --> 00:00:52,600
+¿NO LO SABÍAS?
+
+24
+00:00:52,667 --> 00:00:54,567
+El mundo tiene más historias.
