@@ -1,0 +1,46 @@
+# Vídeo 27 · Frenos ABS — tiempos brutos de la toma B (alineación por palabra de Scribe)
+K = 1.2
+CUES = [
+ (0.08, 3.92, "Si frenas a fondo, tu coche\nsuelta y aprieta los frenos"),
+ (4.00, 7.88, "más de diez veces por segundo…\nsin que tú hagas nada."),
+ (8.19, 11.08, "¿Por qué? Porque una rueda\nbloqueada es peligrosa."),
+ (11.28, 13.68, "Si deja de girar,\npatina sobre el asfalto:"),
+ (13.80, 15.92, "agarra menos,\ntardas más en parar…"),
+ (15.94, 18.80, "y aunque gires el volante,\nel coche sigue recto."),
+ (19.12, 23.20, "Una rueda que todavía gira,\naunque sea un poco, agarra mucho mejor."),
+ (23.32, 25.44, "Ahí entra el ABS."),
+ (25.52, 29.20, "En cada rueda hay un sensor:\nun aro con dientes que gira con ella"),
+ (29.28, 31.68, "y un imán que cuenta\nlos dientes al pasar."),
+ (31.80, 35.36, "Así el ordenador sabe a qué\nvelocidad gira cada rueda."),
+ (35.40, 39.68, "Si una frena de golpe mucho más\nque las otras, está a punto de bloquearse."),
+ (39.80, 43.92, "Unas válvulas le quitan presión\nal freno durante unas milésimas…"),
+ (43.96, 46.56, "la rueda vuelve a girar…\ny se vuelve a apretar."),
+ (46.80, 49.36, "Suelta, aprieta,\nsuelta, aprieta."),
+ (49.84, 53.52, "Por eso, al frenar fuerte,\nnotas el pedal vibrando bajo el pie:"),
+ (53.60, 56.44, "no es una avería,\nes el ABS trabajando."),
+ (56.70, 61.48, "Y lo más curioso: el ABS no nació\npara los coches, sino para los aviones."),
+ (61.68, 66.68, "En los años cincuenta ya se usaba para que sus\nruedas no patinaran y reventaran al aterrizar."),
+ (67.10, 68.04, "¿NO LO SABÍAS?"),
+ (68.24, 70.40, "El mundo tiene más historias."),
+]
+MARKS = dict(hook=0.0, tenx=4.0, why=8.19, locked=9.68, skid=11.28, less=13.8, steer=15.94, rolling=19.12, grip=21.72, abs=23.32,
+             sensor=25.52, ring=27.52, magnet=29.36, computer=31.8, oneWheel=35.4, lock=38.2, valves=39.8, spin=43.96, press=45.32,
+             cycle=46.8, pedal=49.84, notfault=53.6, curious=56.7, planes=60.32, fifties=61.68, land=65.04, brand=67.1, end=70.4)
+MUSIC = dict(seed=271, sections=[('hook', 'D'), ('why', 'Bb'), ('skid', 'Gm'), ('rolling', 'D'), ('abs', 'F'), ('sensor', 'Bb'), ('computer', 'D'),
+             ('oneWheel', 'Gm'), ('valves', 'Bb'), ('cycle', 'D'), ('pedal', 'F'), ('curious', 'Gm'), ('land', 'D'), ('brand', 'END')],
+             shimmer=('why', 'end'), pulses=[('valves', 'pedal', .5)],
+             risers=['why', 'abs', 'curious', 'brand'],
+             hits=[(0.02, .9), ('tenx', .6), ('steer', .5), ('abs', .7), ('lock', .5), ('cycle', .5), ('land', .6), ('brand', .5)])
+SFX = [
+ ('ab_skid_a', 'hook', .3, .3),
+ ('ab_pulse_a', 'tenx', .4, .45),
+ ('ab_skid_a', 'skid', 0, .3),
+ ('whoosh_a', 'abs', -.2, .5),
+ ('impact_a', 'lock', .2, .4),
+ ('ab_pulse_a', 'valves', .6, .45),
+ ('ab_pulse_a', 'cycle', 0, .5),
+ ('ab_pulse_a', 'pedal', .6, .45),
+ ('whoosh_a', 'curious', -.2, .45),
+ ('ab_land_a', 'land', 0, .6),
+ ('whoosh_a', 'brand', -.3, .6),
+]
