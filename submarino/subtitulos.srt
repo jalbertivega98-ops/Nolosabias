@@ -1,0 +1,222 @@
+1
+00:00:00,117 --> 00:00:01,813
+A 300 metros bajo el mar,
+
+2
+00:00:01,833 --> 00:00:05,233
+cada metro cuadrado de este casco
+soporta 300 toneladas.
+
+3
+00:00:05,433 --> 00:00:07,233
+Estás a bordo
+de un submarino nuclear.
+
+4
+00:00:07,333 --> 00:00:09,080
+¿Cómo bajamos
+sin caer hasta el fondo…
+
+5
+00:00:09,100 --> 00:00:10,467
+y cómo volvemos a subir?
+
+6
+00:00:10,600 --> 00:00:11,747
+Abro respiraderos.
+
+7
+00:00:11,767 --> 00:00:13,580
+El aire escapa por arriba
+y, por abajo,
+
+8
+00:00:13,600 --> 00:00:16,713
+entran unas 600 toneladas de agua
+en los tanques de lastre.
+
+9
+00:00:16,733 --> 00:00:19,147
+Ahora pesamos lo mismo
+que el agua que desplazamos.
+
+10
+00:00:19,167 --> 00:00:20,780
+Ni flotamos ni nos hundimos:
+
+11
+00:00:20,800 --> 00:00:22,313
+es el principio de Arquímedes.
+
+12
+00:00:22,333 --> 00:00:24,113
+Para bajar no tocamos los tanques:
+
+13
+00:00:24,133 --> 00:00:25,613
+inclinamos los timones
+de profundidad
+
+14
+00:00:25,633 --> 00:00:27,813
+y nuestro propio avance
+nos lleva hacia abajo.
+
+15
+00:00:27,833 --> 00:00:30,733
+Moviendo agua entre proa y popa,
+nos mantenemos nivelados.
+
+16
+00:00:30,867 --> 00:00:31,813
+100 metros.
+
+17
+00:00:31,833 --> 00:00:34,313
+Lo que ves por fuera
+es un casco ligero que se inunda.
+
+18
+00:00:34,333 --> 00:00:36,947
+Dentro va el casco resistente:
+acero especial,
+
+19
+00:00:36,967 --> 00:00:39,880
+y aquí dentro respiramos a una atmósfera,
+como en la superficie.
+
+20
+00:00:39,900 --> 00:00:41,647
+Sobre una escotilla
+de 60 centímetros
+
+21
+00:00:41,667 --> 00:00:43,805
+empujarán 85 toneladas.
+
+22
+00:00:43,825 --> 00:00:46,047
+Y el casco se encoge:
+perdemos flotabilidad,
+
+23
+00:00:46,067 --> 00:00:47,933
+así que expulsamos agua
+para compensar.
+
+24
+00:00:48,000 --> 00:00:48,667
+¿El motor?
+
+25
+00:00:48,733 --> 00:00:50,513
+Un reactor calienta
+agua a presión;
+
+26
+00:00:50,533 --> 00:00:53,213
+el vapor mueve las turbinas
+que nos empujan en silencio.
+
+27
+00:00:53,233 --> 00:00:55,013
+Un submarino convencional,
+en cambio,
+
+28
+00:00:55,033 --> 00:00:55,967
+navega con baterías
+
+29
+00:00:56,000 --> 00:00:59,033
+y tiene que asomar el esnórquel
+para recargarlas con sus motores diésel.
+
+30
+00:00:59,133 --> 00:00:59,800
+¿Y el aire?
+
+31
+00:00:59,867 --> 00:01:01,647
+Lo fabricamos:
+con electricidad,
+
+32
+00:01:01,667 --> 00:01:03,567
+rompemos el agua
+en hidrógeno y oxígeno.
+
+33
+00:01:03,600 --> 00:01:06,847
+Cada uno de nosotros exhala
+casi un kilo de CO₂ al día:
+
+34
+00:01:06,867 --> 00:01:09,033
+los depuradores lo atrapan
+y lo bombeamos al mar.
+
+35
+00:01:09,067 --> 00:01:11,533
+Hasta el agua dulce
+sale del océano, destilada.
+
+36
+00:01:11,667 --> 00:01:12,833
+300 metros.
+
+37
+00:01:12,933 --> 00:01:13,967
+Aquí no hay luz.
+
+38
+00:01:14,067 --> 00:01:15,833
+No miramos: escuchamos.
+
+39
+00:01:15,975 --> 00:01:18,480
+El sonido viaja
+a 1.500 metros por segundo,
+
+40
+00:01:18,500 --> 00:01:20,247
+cuatro veces más rápido
+que en el aire.
+
+41
+00:01:20,267 --> 00:01:22,380
+Casi nunca emitimos un ping:
+nos delataría.
+
+42
+00:01:22,400 --> 00:01:25,013
+Para volver, soplamos aire
+a alta presión en los tanques.
+
+43
+00:01:25,033 --> 00:01:26,700
+El agua sale…
+y subimos.
+
+44
+00:01:26,775 --> 00:01:28,547
+¿Cuánto podríamos
+quedarnos aquí abajo?
+
+45
+00:01:28,567 --> 00:01:29,947
+El reactor aguanta años.
+
+46
+00:01:29,967 --> 00:01:31,858
+Lo que nos obliga a volver…
+es la comida.
+
+47
+00:01:32,692 --> 00:01:33,647
+¿NO LO SABÍAS?
+
+48
+00:01:33,667 --> 00:01:35,500
+El mundo tiene más historias.
