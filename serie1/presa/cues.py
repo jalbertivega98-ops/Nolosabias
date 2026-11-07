@@ -1,0 +1,45 @@
+# Vídeo 14 · Presa — tiempos brutos de la toma A (alineación por palabra de Scribe)
+K = 1.2
+CUES = [
+ (0.08, 3.52, "Detrás de este muro hay\nmillones de toneladas de agua…"),
+ (3.68, 4.60, "empujando."),
+ (4.91, 5.96, "¿Por qué no lo tira?"),
+ (6.24, 8.00, "Primero, por su forma."),
+ (8.08, 11.04, "Muchas presas son mucho más\nanchas abajo que arriba,"),
+ (11.12, 13.68, "porque el agua empuja\nmás cuanto más hondo:"),
+ (13.76, 17.84, "a cien metros de profundidad,\nla presión es diez veces la del aire."),
+ (17.88, 20.00, "Otras son curvas, como un arco,"),
+ (20.04, 23.12, "y desvían el empuje hacia\nlas montañas de los lados."),
+ (23.20, 25.84, "¿Y cómo se convierte\nel agua en electricidad?"),
+ (25.88, 28.40, "Dentro del muro hay\ntuberías enormes."),
+ (28.48, 32.56, "El agua cae por ellas, gana velocidad\ny hace girar una turbina."),
+ (32.60, 37.04, "La turbina mueve un generador: imanes\nque giran dentro de bobinas de cobre…"),
+ (37.08, 39.20, "y la corriente sale\nhacia las ciudades."),
+ (39.44, 40.00, "¿Y cuánta?"),
+ (40.40, 42.72, "La presa de las Tres\nGargantas, en China,"),
+ (42.92, 45.60, "produce tanto como unos\nveinte reactores nucleares."),
+ (46.06, 52.08, "Y lo más curioso: el hormigón de la presa Hoover\nhabría tardado más de cien años en enfriarse solo."),
+ (52.12, 58.08, "Para que no se agrietara, lo enfriaron con kilómetros\nde tuberías de agua helada metidas dentro del muro."),
+ (58.62, 59.56, "¿NO LO SABÍAS?"),
+ (59.76, 61.92, "El mundo tiene más historias."),
+]
+MARKS = dict(hook=0.0, push=3.68, why=4.91, shape=6.24, wide=8.08, deep=11.12, m100=13.76, x10=16.12, arch=17.88, sides=20.04,
+             how=23.2, pipes=25.88, falls=28.48, turbine=31.2, gen=32.6, magnets=34.52, city=37.08, howmuch=39.44, tg=40.4, x20=43.68,
+             curious=46.06, years=50.0, crack=52.12, coolpipes=54.04, brand=58.62, end=61.92)
+MUSIC = dict(seed=97, sections=[('hook', 'Dsus'), ('why', 'Gm'), ('wide', 'D'), ('arch', 'Bb'), ('how', 'Gm'), ('falls', 'F'),
+             ('gen', 'Bb'), ('city', 'D'), ('tg', 'F'), ('curious', 'Gm'), ('crack', 'Bb'), ('brand', 'END')],
+             shimmer=('why', 'end'), pulses=[('falls', 'howmuch', .5)],
+             risers=['why', 'how', 'tg', 'curious', 'brand'],
+             hits=[(0.02, .9), ('push', .6), ('x10', .6), ('sides', .4), ('turbine', .5), ('city', .6), ('x20', .7), ('years', .5), ('brand', .5)])
+SFX = [
+ ('impact_a', 'hook', 0, .9),
+ ('pr_water_a', 'hook', 0, .35, dict(dur='why', loop=True, fi=.3, fo=.6)),
+ ('impact_b', 'push', 0, .6),
+ ('whoosh_a', 'how', 0, .5),
+ ('pr_water_b', 'falls', 0, .35, dict(dur='gen', loop=True, fi=.3, fo=.5)),
+ ('pr_turbine_a', 'turbine', 0, .45, dict(dur='city', loop=True, fi=.3, fo=.5)),
+ ('pr_elec_a', 'city', 0, .55),
+ ('pr_elec_b', 'x20', 0, .4),
+ ('whoosh_a', 'curious', -.2, .45),
+ ('whoosh_a', 'brand', -.3, .6),
+]

@@ -1,0 +1,45 @@
+# Vídeo 12 · Motor de coche — tiempos brutos de la toma A (alineación por palabra de Scribe)
+K = 1.2
+CUES = [
+ (0.08, 3.20, "Tu coche funciona con miles\nde explosiones por minuto."),
+ (3.71, 6.24, "Dentro del motor hay cilindros,\ny en cada uno,"),
+ (6.28, 8.32, "un pistón que sube y baja."),
+ (8.44, 10.56, "Todo pasa en cuatro tiempos."),
+ (10.64, 14.08, "Uno: el pistón baja\ny aspira aire y gasolina."),
+ (14.24, 18.24, "Dos: sube y lo aprieta hasta\nque ocupa unas diez veces menos."),
+ (18.35, 21.76, "Tres: la bujía lanza una\nchispa de miles de voltios…"),
+ (21.80, 23.68, "y la mezcla explota."),
+ (23.72, 27.84, "La presión empuja el pistón hacia\nabajo con una fuerza de varias toneladas."),
+ (27.88, 32.40, "Cuatro: el pistón sube otra vez y\nexpulsa los gases por el tubo de escape."),
+ (32.64, 36.16, "¿Y cómo se convierte ese sube\ny baja en ruedas que giran?"),
+ (36.40, 38.80, "Con el cigüeñal:\nun eje con codos,"),
+ (38.88, 40.40, "como los pedales de una bici."),
+ (40.45, 43.36, "Cada pistón empuja un codo…\ny el eje gira."),
+ (43.40, 48.08, "A tres mil revoluciones, cada cilindro\nexplota veinticinco veces por segundo."),
+ (48.16, 51.04, "Con cuatro cilindros,\ncien explosiones cada segundo."),
+ (51.42, 54.48, "Y lo más curioso: de toda la\nenergía de la gasolina,"),
+ (54.52, 57.12, "solo un tercio, como mucho,\nmueve el coche."),
+ (57.44, 60.72, "El resto se escapa como calor:\npor eso necesita un radiador."),
+ (61.71, 62.60, "¿NO LO SABÍAS?"),
+ (62.80, 64.96, "El mundo tiene más historias."),
+]
+MARKS = dict(hook=0.0, inside=3.71, piston=6.28, four=8.44, intake=10.64, comp=14.24, spark=18.35, boom=21.8, power=23.72, tons=26.4,
+             exhaust=27.88, how=32.64, crank=36.4, bike=38.88, push=40.45, rpm=43.4, x25=45.92, four_cyl=48.16, x100=49.32,
+             curious=51.42, third=54.52, heat=57.44, radiator=59.68, brand=61.71, end=64.96)
+MUSIC = dict(seed=88, sections=[('hook', 'Dsus'), ('inside', 'Gm'), ('intake', 'D'), ('spark', 'Bb'), ('exhaust', 'F'), ('how', 'Gm'),
+             ('crank', 'Bb'), ('rpm', 'D'), ('curious', 'Gm'), ('heat', 'Bb'), ('brand', 'END')],
+             shimmer=('inside', 'end'), pulses=[('rpm', 'curious', .5)],
+             risers=['inside', 'spark', 'how', 'curious', 'brand'],
+             hits=[(0.02, .9), ('boom', .8), ('tons', .5), ('crank', .5), ('x100', .7), ('third', .6), ('brand', .5)])
+SFX = [
+ ('impact_a', 'hook', 0, .9),
+ ('mt_engine_a', 'hook', 0, .45, dict(dur='inside', fo=.6)),
+ ('mt_intake_a', 'intake', .2, .6),
+ ('mt_spark_a', 'spark', 1.6, .7),
+ ('impact_b', 'boom', 0, .7),
+ ('mt_intake_b', 'exhaust', 1.2, .45),
+ ('whoosh_a', 'how', 0, .5),
+ ('mt_engine_b', 'rpm', 0, .35, dict(dur='curious', loop=True, fi=.5, fo=.6)),
+ ('mt_spark_b', 'x100', 0, .45),
+ ('whoosh_a', 'brand', -.3, .6),
+]

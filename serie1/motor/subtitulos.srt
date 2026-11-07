@@ -1,0 +1,98 @@
+1
+00:00:00,067 --> 00:00:02,767
+Tu coche funciona con miles
+de explosiones por minuto.
+
+2
+00:00:03,092 --> 00:00:05,213
+Dentro del motor hay cilindros,
+y en cada uno,
+
+3
+00:00:05,233 --> 00:00:07,013
+un pistón que sube y baja.
+
+4
+00:00:07,033 --> 00:00:08,847
+Todo pasa en cuatro tiempos.
+
+5
+00:00:08,867 --> 00:00:11,833
+Uno: el pistón baja
+y aspira aire y gasolina.
+
+6
+00:00:11,867 --> 00:00:15,272
+Dos: sube y lo aprieta hasta
+que ocupa unas diez veces menos.
+
+7
+00:00:15,292 --> 00:00:18,147
+Tres: la bujía lanza una
+chispa de miles de voltios…
+
+8
+00:00:18,167 --> 00:00:19,747
+y la mezcla explota.
+
+9
+00:00:19,767 --> 00:00:23,213
+La presión empuja el pistón hacia
+abajo con una fuerza de varias toneladas.
+
+10
+00:00:23,233 --> 00:00:27,100
+Cuatro: el pistón sube otra vez y
+expulsa los gases por el tubo de escape.
+
+11
+00:00:27,200 --> 00:00:30,233
+¿Y cómo se convierte ese sube
+y baja en ruedas que giran?
+
+12
+00:00:30,333 --> 00:00:32,380
+Con el cigüeñal:
+un eje con codos,
+
+13
+00:00:32,400 --> 00:00:33,688
+como los pedales de una bici.
+
+14
+00:00:33,708 --> 00:00:36,147
+Cada pistón empuja un codo…
+y el eje gira.
+
+15
+00:00:36,167 --> 00:00:40,113
+A tres mil revoluciones, cada cilindro
+explota veinticinco veces por segundo.
+
+16
+00:00:40,133 --> 00:00:42,633
+Con cuatro cilindros,
+cien explosiones cada segundo.
+
+17
+00:00:42,850 --> 00:00:45,413
+Y lo más curioso: de toda la
+energía de la gasolina,
+
+18
+00:00:45,433 --> 00:00:47,700
+solo un tercio, como mucho,
+mueve el coche.
+
+19
+00:00:47,867 --> 00:00:50,700
+El resto se escapa como calor:
+por eso necesita un radiador.
+
+20
+00:00:51,425 --> 00:00:52,267
+¿NO LO SABÍAS?
+
+21
+00:00:52,333 --> 00:00:54,233
+El mundo tiene más historias.

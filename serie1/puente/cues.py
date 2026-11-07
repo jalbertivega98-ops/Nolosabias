@@ -1,0 +1,47 @@
+# Vídeo 13 · Puente colgante — tiempos brutos de la toma A (alineación por palabra de Scribe)
+K = 1.2
+CUES = [
+ (0.08, 2.72, "Este puente mide más\nde un kilómetro…"),
+ (2.76, 4.84, "y cuelga de solo dos cables."),
+ (5.03, 6.00, "¿Cómo aguanta?"),
+ (6.48, 8.48, "La carretera no se\napoya en el agua:"),
+ (8.56, 11.80, "cuelga de cientos de cables\nverticales, las péndolas."),
+ (12.00, 16.44, "Y todas tiran de los dos cables principales,\nque pasan por encima de las torres."),
+ (16.64, 18.16, "¿Y de qué está hecho un cable así?"),
+ (18.56, 22.60, "De miles de alambres de acero\nde cinco milímetros, apretados juntos."),
+ (22.80, 26.28, "En el Golden Gate, cada cable\ntiene más de veintisiete mil."),
+ (26.48, 29.64, "Puestos en fila, darían más\nde tres vueltas a la Tierra."),
+ (29.84, 31.28, "¿Y adónde va toda esa fuerza?"),
+ (31.60, 34.24, "Las torres la empujan hacia\nabajo, contra el suelo."),
+ (34.40, 38.16, "Y los extremos de los cables se entierran\nen bloques de hormigón gigantes,"),
+ (38.24, 41.32, "los anclajes, que aguantan\nel tirón de todo el puente."),
+ (41.52, 44.68, "Pero el mayor peligro no es\nel peso: es el viento."),
+ (44.88, 49.84, "En 1940, el puente de Tacoma empezó\na retorcerse con un viento moderado…"),
+ (49.88, 51.00, "y se vino abajo."),
+ (51.20, 54.08, "Desde entonces, todos se\nprueban en túneles de viento."),
+ (54.30, 58.48, "Y lo más curioso: las torres de los\npuentes más largos no son paralelas."),
+ (58.80, 62.16, "Están unos centímetros más\nseparadas arriba que abajo…"),
+ (62.24, 63.92, "porque la Tierra es curva."),
+ (64.29, 65.04, "¿NO LO SABÍAS?"),
+ (65.36, 67.52, "El mundo tiene más historias."),
+]
+MARKS = dict(hook=0.0, two=2.76, how=5.03, road=6.48, hangers=8.56, main=12.0, towers=15.24, made=16.64, wires=18.56, gg=22.8, n27=25.12,
+             earth=26.48, force=29.84, tw=31.6, anchors=34.4, anch_name=38.24, danger=41.52, wind=43.76, y1940=44.88, twist=47.36, fall=49.88,
+             tunnel=51.2, curious=54.3, notpar=57.44, cm=58.8, curve=62.24, brand=64.29, end=67.52)
+MUSIC = dict(seed=91, sections=[('hook', 'Dsus'), ('how', 'Gm'), ('main', 'D'), ('made', 'Bb'), ('earth', 'F'), ('force', 'Gm'),
+             ('anchors', 'Bb'), ('danger', 'Gm'), ('fall', 'Bb'), ('tunnel', 'D'), ('curious', 'Gm'), ('curve', 'Bb'), ('brand', 'END')],
+             shimmer=('how', 'end'), pulses=[('danger', 'fall', .5)],
+             risers=['how', 'made', 'danger', 'curious', 'brand'],
+             hits=[(0.02, .9), ('two', .6), ('n27', .5), ('earth', .6), ('anch_name', .5), ('fall', .8), ('curve', .7), ('brand', .5)])
+SFX = [
+ ('impact_a', 'hook', 0, .9),
+ ('pu_wind_a', 'hook', 0, .35, dict(dur='how', loop=True, fi=.3, fo=.6)),
+ ('pu_cable_a', 'two', .1, .7),
+ ('pu_cable_b', 'main', .3, .5),
+ ('whoosh_a', 'made', 0, .5),
+ ('impact_b', 'earth', .1, .6),
+ ('pu_cable_a', 'anch_name', 0, .6),
+ ('pu_wind_b', 'danger', 0, .3, dict(dur='tunnel', loop=True, fi=.5, fo=.6)),
+ ('pu_collapse_b', 'fall', -.2, .45),
+ ('whoosh_a', 'brand', -.3, .6),
+]
