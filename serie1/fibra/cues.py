@@ -1,0 +1,48 @@
+# Vídeo 33 · Fibra óptica — tiempos brutos de la toma A (alineación por palabra de Scribe)
+K = 1.2
+CUES = [
+ (0.08, 3.56, "El vídeo que estás viendo puede\nhaber cruzado el fondo del mar…"),
+ (3.96, 6.60, "dentro de un hilo de vidrio\ndel grosor de un pelo."),
+ (6.64, 8.36, "Es la fibra óptica."),
+ (8.40, 9.81, "¿Cómo lleva la información?"),
+ (9.87, 14.67, "Con luz: un láser se enciende y se apaga\nmiles de millones de veces por segundo."),
+ (14.69, 18.30, "Cada destello es un uno,\ny cada apagón, un cero."),
+ (18.36, 20.91, "¿Y por qué la luz no se\nescapa por los lados?"),
+ (20.93, 25.55, "El hilo tiene un núcleo de vidrio rodeado\nde otra capa de vidrio un poco distinto."),
+ (25.57, 29.48, "Cuando la luz llega al borde muy inclinada,\nrebota entera hacia dentro:"),
+ (29.52, 31.16, "es la reflexión total."),
+ (31.20, 33.40, "Así avanza,\nrebote tras rebote,"),
+ (33.44, 36.20, "a unos doscientos mil\nkilómetros por segundo."),
+ (36.24, 39.73, "El vidrio es tan puro que, si el mar\nfuera así de transparente,"),
+ (39.79, 41.97, "podrías ver el fondo\ndesde la superficie…"),
+ (42.03, 44.12, "incluso en los\npuntos más hondos."),
+ (44.16, 47.40, "Y por un solo hilo viajan a la vez\nmuchos colores de luz,"),
+ (47.44, 49.63, "cada uno con su\npropia conversación."),
+ (49.76, 54.04, "Lo más curioso: casi todo el internet\nentre continentes no va por satélite,"),
+ (54.08, 57.95, "sino por más de un millón de kilómetros\nde cables en el fondo del océano."),
+ (57.97, 61.08, "Y a veces…\nlos muerden los tiburones."),
+ (61.18, 62.37, "¿NO LO SABÍAS?"),
+ (62.43, 64.48, "El mundo tiene más historias."),
+]
+MARKS = dict(hook=0.0, thread=3.96, hair=5.16, fiber=6.64, how=8.4, light=9.87, laser=10.88, billions=12.44, one=14.69, zero=16.44,
+             escape=18.36, core=20.93, cladding=23.2, edge=25.57, bounce=27.76, total=29.52, advance=31.2, speed=33.44,
+             pure=36.24, sea=38.0, bottom=39.79, deep=42.03, colors=44.16, many=46.12, convo=47.44,
+             curious=49.76, sat=53.04, cables=54.08, million=55.08, ocean=56.76, sharks=57.97, bite=59.32, brand=61.18, end=64.48)
+MUSIC = dict(seed=331, sections=[('hook', 'Dsus'), ('how', 'D'), ('one', 'Bb'), ('escape', 'F'), ('edge', 'Gm'), ('advance', 'D'), ('pure', 'Bb'),
+             ('colors', 'C'), ('curious', 'Gm'), ('cables', 'Bb'), ('sharks', 'Gm'), ('bite', 'D'), ('brand', 'END')],
+             shimmer=('how', 'end'), pulses=[('light', 'escape', .5)],
+             risers=['how', 'edge', 'curious', 'brand'],
+             hits=[(0.02, .9), ('light', .5), ('total', .6), ('colors', .5), ('bite', .7), ('brand', .5)])
+SFX = [
+ ('fb_sea_a', 'hook', 0, .45),
+ ('whoosh_a', 'fiber', -.2, .4),
+ ('fb_data_a', 'laser', 0, .45),
+ ('fb_data_a', 'one', .2, .35),
+ ('impact_a', 'total', 0, .4),
+ ('whoosh_a', 'advance', -.1, .4),
+ ('fb_data_a', 'many', 0, .35),
+ ('whoosh_a', 'curious', -.2, .45),
+ ('fb_sea_a', 'cables', 0, .4),
+ ('fb_bite_a', 'bite', 0, .6),
+ ('whoosh_a', 'brand', -.3, .6),
+]
