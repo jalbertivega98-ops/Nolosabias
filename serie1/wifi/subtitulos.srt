@@ -1,0 +1,102 @@
+1
+00:00:00,067 --> 00:00:03,480
+Ahora mismo te están atravesando
+vídeos, fotos y mensajes…
+
+2
+00:00:03,500 --> 00:00:04,433
+y no los ves.
+
+3
+00:00:04,725 --> 00:00:06,380
+Tu wifi no viaja por cables:
+
+4
+00:00:06,400 --> 00:00:09,413
+viaja por el aire, como la luz,
+pero con ondas invisibles.
+
+5
+00:00:09,433 --> 00:00:12,313
+Dentro del router, una antena empuja
+electrones arriba y abajo
+
+6
+00:00:12,333 --> 00:00:15,013
+dos mil cuatrocientos millones
+de veces por segundo.
+
+7
+00:00:15,033 --> 00:00:18,980
+Esa vibración lanza una onda de unos
+doce centímetros que atraviesa las paredes.
+
+8
+00:00:19,000 --> 00:00:20,513
+¿Y cómo lleva un vídeo dentro?
+
+9
+00:00:20,533 --> 00:00:24,088
+Cambiando la onda: su fuerza y el
+momento exacto en que sube y baja.
+
+10
+00:00:24,108 --> 00:00:25,713
+Cada pequeño cambio es un código,
+
+11
+00:00:25,733 --> 00:00:28,080
+y cada código vale
+varios unos y ceros.
+
+12
+00:00:28,100 --> 00:00:30,747
+Así caben cientos de millones
+de bits cada segundo.
+
+13
+00:00:30,767 --> 00:00:34,313
+Y para que quepan más, la información se
+reparte en cientos de frecuencias a la vez,
+
+14
+00:00:34,333 --> 00:00:35,847
+como los carriles de una autopista.
+
+15
+00:00:35,867 --> 00:00:39,405
+Tu móvil escucha, descifra cada
+cambio y reconstruye el vídeo.
+
+16
+00:00:39,425 --> 00:00:41,467
+¿Y por qué va peor en
+la otra punta de la casa?
+
+17
+00:00:41,533 --> 00:00:44,205
+Las paredes, el agua y
+el metal se comen la onda.
+
+18
+00:00:44,225 --> 00:00:46,967
+Y la de cinco gigahercios,
+más rápida, se rinde antes.
+
+19
+00:00:47,050 --> 00:00:50,880
+Y lo más curioso: el wifi usa casi
+la misma frecuencia que tu microondas.
+
+20
+00:00:50,900 --> 00:00:53,767
+Por eso, a veces, al calentar
+la leche… se corta el vídeo.
+
+21
+00:00:54,517 --> 00:00:55,400
+¿NO LO SABÍAS?
+
+22
+00:00:55,467 --> 00:00:57,367
+El mundo tiene más historias.

@@ -1,0 +1,47 @@
+# Vídeo 21 · Wifi — tiempos brutos de la toma A (alineación por palabra de Scribe)
+K = 1.2
+CUES = [
+ (0.08, 4.16, "Ahora mismo te están atravesando\nvídeos, fotos y mensajes…"),
+ (4.20, 5.20, "y no los ves."),
+ (5.67, 7.60, "Tu wifi no viaja por cables:"),
+ (7.68, 11.28, "viaja por el aire, como la luz,\npero con ondas invisibles."),
+ (11.32, 14.72, "Dentro del router, una antena empuja\nelectrones arriba y abajo"),
+ (14.80, 18.00, "dos mil cuatrocientos millones\nde veces por segundo."),
+ (18.04, 22.72, "Esa vibración lanza una onda de unos\ndoce centímetros que atraviesa las paredes."),
+ (22.80, 24.56, "¿Y cómo lleva un vídeo dentro?"),
+ (24.64, 28.88, "Cambiando la onda: su fuerza y el\nmomento exacto en que sube y baja."),
+ (28.93, 30.80, "Cada pequeño cambio es un código,"),
+ (30.88, 33.60, "y cada código vale\nvarios unos y ceros."),
+ (33.72, 36.88, "Así caben cientos de millones\nde bits cada segundo."),
+ (36.92, 41.12, "Y para que quepan más, la información se\nreparte en cientos de frecuencias a la vez,"),
+ (41.20, 42.96, "como los carriles de una autopista."),
+ (43.04, 47.28, "Tu móvil escucha, descifra cada\ncambio y reconstruye el vídeo."),
+ (47.31, 49.64, "¿Y por qué va peor en\nla otra punta de la casa?"),
+ (49.84, 53.04, "Las paredes, el agua y\nel metal se comen la onda."),
+ (53.07, 56.24, "Y la de cinco gigahercios,\nmás rápida, se rinde antes."),
+ (56.46, 61.04, "Y lo más curioso: el wifi usa casi\nla misma frecuencia que tu microondas."),
+ (61.08, 64.40, "Por eso, a veces, al calentar\nla leche… se corta el vídeo."),
+ (65.42, 66.36, "¿NO LO SABÍAS?"),
+ (66.56, 68.72, "El mundo tiene más historias."),
+]
+MARKS = dict(hook=0.0, invis=4.2, nocable=5.67, air=7.68, router=11.32, ghz=14.8, wave=18.04, cm=20.08, how=22.8, change=24.64, amp=26.0, phase=26.8,
+             code=28.93, bits=30.88, rate=33.72, ofdm=36.92, lanes=41.2, phone=43.04, why=47.31, walls=49.84, five=53.07,
+             curious=56.46, micro=58.32, milk=61.08, cut=63.56, brand=65.42, end=68.72)
+MUSIC = dict(seed=211, sections=[('hook', 'D'), ('nocable', 'Bb'), ('router', 'Gm'), ('wave', 'D'), ('how', 'F'), ('code', 'Bb'), ('ofdm', 'C'),
+             ('phone', 'D'), ('why', 'Gm'), ('curious', 'Gm'), ('milk', 'Bb'), ('brand', 'END')],
+             shimmer=('nocable', 'end'), pulses=[('router', 'how', .5), ('code', 'why', .5)],
+             risers=['nocable', 'how', 'why', 'curious', 'brand'],
+             hits=[(0.02, .9), ('ghz', .5), ('cm', .5), ('bits', .4), ('lanes', .5), ('walls', .4), ('cut', .7), ('brand', .5)])
+SFX = [
+ ('wf_pulse_a', 'hook', 0, .7),
+ ('wf_pulse_a', 'router', .3, .4),
+ ('wf_pulse_a', 'wave', 0, .45),
+ ('wf_data_a', 'code', 0, .4),
+ ('wf_data_a', 'ofdm', .5, .35),
+ ('wf_data_a', 'phone', .3, .35),
+ ('impact_b', 'walls', 0, .35),
+ ('whoosh_a', 'curious', -.2, .45),
+ ('wf_micro_a', 'milk', 0, .55),
+ ('impact_a', 'cut', 0, .45),
+ ('whoosh_a', 'brand', -.3, .6),
+]
