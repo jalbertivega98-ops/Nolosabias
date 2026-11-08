@@ -1,0 +1,45 @@
+# Vídeo 17 · Auriculares con cancelación de ruido — tiempos brutos de la toma A (alineación por palabra de Scribe)
+K = 1.2
+CUES = [
+ (0.21, 2.48, "Estos auriculares borran el ruido…"),
+ (2.60, 4.16, "añadiendo más ruido."),
+ (4.49, 5.52, "¿Cómo es posible?"),
+ (5.76, 7.36, "El sonido es una onda:"),
+ (7.40, 11.12, "el aire se comprime y se estira\ncientos de veces por segundo."),
+ (11.16, 13.76, "Por fuera de cada auricular\nhay micrófonos diminutos"),
+ (13.80, 15.68, "que escuchan el ruido que llega."),
+ (15.72, 19.12, "Un chip analiza esa onda y,\nen una fracción de milisegundo,"),
+ (19.28, 21.60, "fabrica otra exactamente al revés:"),
+ (21.68, 24.00, "donde el ruido empuja, ella tira."),
+ (24.08, 26.48, "El altavoz la reproduce\njunto a tu música…"),
+ (26.52, 29.44, "y cuando las dos ondas\nse juntan, se anulan."),
+ (29.56, 30.40, "Silencio."),
+ (30.72, 34.72, "Funciona mejor con sonidos graves y\nconstantes, como el motor de un avión."),
+ (34.80, 37.76, "Las voces y los ruidos agudos\ncambian demasiado rápido,"),
+ (37.84, 39.56, "y por eso se cuelan un poco más."),
+ (39.82, 44.08, "Y lo más curioso: la idea\nse patentó en 1936,"),
+ (44.16, 46.96, "décadas antes de que\nexistieran estos auriculares."),
+ (47.00, 50.00, "Y los primeros en llevarla\nen la cabeza fueron los pilotos…"),
+ (50.08, 51.92, "para soportar el estruendo de la cabina."),
+ (52.70, 53.64, "¿NO LO SABÍAS?"),
+ (53.84, 56.00, "El mundo tiene más historias."),
+]
+MARKS = dict(hook=0.0, adding=2.6, how=4.49, wave=5.76, squeeze=7.4, hundreds=9.12, mics=11.16, listen=13.8, chip=15.72, fast=17.6,
+             inverse=19.28, push=21.68, pull=23.0, speaker=24.08, join=26.52, cancel=28.64, silence=29.56, bass=30.72, plane=33.56,
+             voices=34.8, leak=37.84, curious=39.82, y1936=42.32, decades=44.16, pilots=47.0, cockpit=50.08, brand=52.7, end=56.0)
+MUSIC = dict(seed=181, sections=[('hook', 'Dsus'), ('how', 'Gm'), ('wave', 'D'), ('mics', 'Bb'), ('chip', 'Gm'), ('inverse', 'F'),
+             ('join', 'Bb'), ('silence', 'D'), ('bass', 'Gm'), ('voices', 'F'), ('curious', 'Gm'), ('pilots', 'Bb'), ('brand', 'END')],
+             shimmer=('how', 'end'), pulses=[('chip', 'silence', .5)],
+             risers=['how', 'chip', 'curious', 'brand'],
+             hits=[(0.02, .9), ('adding', .5), ('hundreds', .4), ('inverse', .5), ('cancel', .7), ('plane', .4), ('y1936', .6), ('pilots', .5), ('brand', .5)])
+SFX = [
+ ('impact_a', 'hook', 0, .8),
+ ('anc_city_a', 'hook', 0, .45, dict(dur='how', loop=True, fi=.1, fo=.3)),
+ ('anc_on_a', 'adding', 0, .5),
+ ('impact_b', 'inverse', 0, .45),
+ ('anc_on_a', 'cancel', -.2, .55),
+ ('anc_plane_a', 'bass', 0, .35, dict(dur='voices', loop=True, fi=.3, fo=.5)),
+ ('whoosh_a', 'curious', -.2, .45),
+ ('anc_plane_a', 'pilots', 0, .3, dict(dur='brand', loop=True, fi=.4, fo=.6)),
+ ('whoosh_a', 'brand', -.3, .6),
+]

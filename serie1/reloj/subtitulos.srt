@@ -1,0 +1,94 @@
+1
+00:00:00,133 --> 00:00:02,380
+Dentro de este reloj,
+un trocito de cristal
+
+2
+00:00:02,400 --> 00:00:05,900
+vibra 32.768 veces
+cada segundo.
+
+3
+00:00:06,125 --> 00:00:06,767
+¿Por qué?
+
+4
+00:00:06,867 --> 00:00:08,280
+El cuarzo tiene un truco:
+
+5
+00:00:08,300 --> 00:00:10,133
+si lo aprietas,
+genera electricidad.
+
+6
+00:00:10,200 --> 00:00:12,367
+Y si le das electricidad…
+se dobla.
+
+7
+00:00:12,533 --> 00:00:15,933
+Dentro del reloj hay una pieza de
+cuarzo con forma de diapasón diminuto.
+
+8
+00:00:16,067 --> 00:00:18,413
+Un circuito le da pequeños
+empujones eléctricos,
+
+9
+00:00:18,433 --> 00:00:22,033
+y el cristal vibra siempre al mismo
+ritmo, como una campana perfecta.
+
+10
+00:00:22,333 --> 00:00:23,667
+¿Y por qué justo ese número?
+
+11
+00:00:23,733 --> 00:00:25,433
+Porque es dos elevado a quince.
+
+12
+00:00:25,733 --> 00:00:27,080
+Un chip lo divide entre dos,
+
+13
+00:00:27,100 --> 00:00:29,933
+y otra vez, y otra…
+quince veces seguidas.
+
+14
+00:00:30,000 --> 00:00:32,633
+Y al final queda exactamente
+un pulso por segundo.
+
+15
+00:00:32,933 --> 00:00:34,480
+Ese pulso mueve un motorcito,
+
+16
+00:00:34,500 --> 00:00:36,300
+y la aguja avanza: tic.
+
+17
+00:00:36,517 --> 00:00:38,447
+Y lo más curioso: antes del cuarzo,
+
+18
+00:00:38,467 --> 00:00:42,167
+los mejores relojes de pulsera se adelantaban
+o atrasaban varios segundos al día.
+
+19
+00:00:42,467 --> 00:00:46,100
+Uno de cuarzo barato se desvía
+unos quince segundos… en todo un mes.
+
+20
+00:00:46,717 --> 00:00:47,600
+¿NO LO SABÍAS?
+
+21
+00:00:47,667 --> 00:00:49,633
+El mundo tiene más historias.

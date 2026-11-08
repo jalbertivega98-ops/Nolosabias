@@ -1,0 +1,105 @@
+1
+00:00:00,225 --> 00:00:02,347
+Este aparato saca calor
+del aire de la calle…
+
+2
+00:00:02,367 --> 00:00:03,767
+aunque fuera haga frío.
+
+3
+00:00:03,858 --> 00:00:06,100
+¿Cómo puede calentar tu casa
+con aire helado?
+
+4
+00:00:06,200 --> 00:00:08,947
+Por dentro circula un líquido
+especial, el refrigerante,
+
+5
+00:00:08,967 --> 00:00:10,947
+que hierve a temperaturas bajísimas:
+
+6
+00:00:10,967 --> 00:00:13,280
+algunos, a cincuenta grados bajo cero.
+
+7
+00:00:13,300 --> 00:00:15,413
+Fuera, ese líquido
+pasa por un serpentín,
+
+8
+00:00:15,433 --> 00:00:18,047
+absorbe el calor del aire…
+y se convierte en gas.
+
+9
+00:00:18,067 --> 00:00:19,913
+Luego un compresor
+lo aprieta con fuerza,
+
+10
+00:00:19,933 --> 00:00:23,080
+y al comprimirlo, el gas se calienta
+a más de sesenta grados.
+
+11
+00:00:23,100 --> 00:00:24,613
+Ese gas caliente entra en casa,
+
+12
+00:00:24,633 --> 00:00:26,680
+suelta su calor en los
+radiadores o en el aire…
+
+13
+00:00:26,700 --> 00:00:27,980
+y vuelve a ser líquido.
+
+14
+00:00:28,000 --> 00:00:30,347
+Una válvula le baja la presión,
+se enfría de golpe,
+
+15
+00:00:30,367 --> 00:00:31,833
+y el ciclo empieza otra vez.
+
+16
+00:00:31,933 --> 00:00:33,380
+¿Y por qué es tan eficiente?
+
+17
+00:00:33,400 --> 00:00:35,613
+Porque no fabrica el calor:
+lo mueve.
+
+18
+00:00:35,633 --> 00:00:38,867
+Por cada kilovatio de electricidad,
+entrega tres o cuatro de calor.
+
+19
+00:00:38,933 --> 00:00:42,600
+Es lo mismo que hace tu nevera… pero
+calentando tu casa en vez de enfriar la comida.
+
+20
+00:00:42,717 --> 00:00:46,200
+Y lo más curioso: la idea tiene
+más de ciento setenta años.
+
+21
+00:00:46,267 --> 00:00:50,933
+Lord Kelvin la propuso en 1852… para
+calentar edificios con el aire de la calle.
+
+22
+00:00:51,117 --> 00:00:52,000
+¿NO LO SABÍAS?
+
+23
+00:00:52,067 --> 00:00:53,900
+El mundo tiene más historias.

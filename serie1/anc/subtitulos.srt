@@ -1,0 +1,97 @@
+1
+00:00:00,175 --> 00:00:02,147
+Estos auriculares borran el ruido…
+
+2
+00:00:02,167 --> 00:00:03,567
+añadiendo más ruido.
+
+3
+00:00:03,742 --> 00:00:04,700
+¿Cómo es posible?
+
+4
+00:00:04,800 --> 00:00:06,147
+El sonido es una onda:
+
+5
+00:00:06,167 --> 00:00:09,280
+el aire se comprime y se estira
+cientos de veces por segundo.
+
+6
+00:00:09,300 --> 00:00:11,480
+Por fuera de cada auricular
+hay micrófonos diminutos
+
+7
+00:00:11,500 --> 00:00:13,080
+que escuchan el ruido que llega.
+
+8
+00:00:13,100 --> 00:00:16,033
+Un chip analiza esa onda y,
+en una fracción de milisegundo,
+
+9
+00:00:16,067 --> 00:00:18,047
+fabrica otra exactamente al revés:
+
+10
+00:00:18,067 --> 00:00:20,047
+donde el ruido empuja, ella tira.
+
+11
+00:00:20,067 --> 00:00:22,080
+El altavoz la reproduce
+junto a tu música…
+
+12
+00:00:22,100 --> 00:00:24,613
+y cuando las dos ondas
+se juntan, se anulan.
+
+13
+00:00:24,633 --> 00:00:25,433
+Silencio.
+
+14
+00:00:25,600 --> 00:00:28,980
+Funciona mejor con sonidos graves y
+constantes, como el motor de un avión.
+
+15
+00:00:29,000 --> 00:00:31,513
+Las voces y los ruidos agudos
+cambian demasiado rápido,
+
+16
+00:00:31,533 --> 00:00:33,067
+y por eso se cuelan un poco más.
+
+17
+00:00:33,183 --> 00:00:36,780
+Y lo más curioso: la idea
+se patentó en 1936,
+
+18
+00:00:36,800 --> 00:00:39,147
+décadas antes de que
+existieran estos auriculares.
+
+19
+00:00:39,167 --> 00:00:41,713
+Y los primeros en llevarla
+en la cabeza fueron los pilotos…
+
+20
+00:00:41,733 --> 00:00:43,367
+para soportar el estruendo de la cabina.
+
+21
+00:00:43,917 --> 00:00:44,800
+¿NO LO SABÍAS?
+
+22
+00:00:44,867 --> 00:00:46,767
+El mundo tiene más historias.

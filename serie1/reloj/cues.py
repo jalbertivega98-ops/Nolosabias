@@ -1,0 +1,47 @@
+# Vídeo 18 · Reloj de cuarzo — tiempos brutos de la toma A (alineación por palabra de Scribe)
+K = 1.2
+CUES = [
+ (0.16, 2.80, "Dentro de este reloj,\nun trocito de cristal"),
+ (2.88, 6.96, "vibra 32.768 veces\ncada segundo."),
+ (7.35, 8.00, "¿Por qué?"),
+ (8.24, 9.92, "El cuarzo tiene un truco:"),
+ (9.96, 12.04, "si lo aprietas,\ngenera electricidad."),
+ (12.24, 14.72, "Y si le das electricidad…\nse dobla."),
+ (15.04, 19.00, "Dentro del reloj hay una pieza de\ncuarzo con forma de diapasón diminuto."),
+ (19.28, 22.08, "Un circuito le da pequeños\nempujones eléctricos,"),
+ (22.12, 26.32, "y el cristal vibra siempre al mismo\nritmo, como una campana perfecta."),
+ (26.80, 28.28, "¿Y por qué justo ese número?"),
+ (28.48, 30.40, "Porque es dos elevado a quince."),
+ (30.88, 32.48, "Un chip lo divide entre dos,"),
+ (32.52, 35.80, "y otra vez, y otra…\nquince veces seguidas."),
+ (36.00, 39.04, "Y al final queda exactamente\nun pulso por segundo."),
+ (39.52, 41.36, "Ese pulso mueve un motorcito,"),
+ (41.40, 43.44, "y la aguja avanza: tic."),
+ (43.82, 46.08, "Y lo más curioso: antes del cuarzo,"),
+ (46.16, 50.48, "los mejores relojes de pulsera se adelantaban\no atrasaban varios segundos al día."),
+ (50.96, 55.20, "Uno de cuarzo barato se desvía\nunos quince segundos… en todo un mes."),
+ (56.06, 57.00, "¿NO LO SABÍAS?"),
+ (57.20, 59.44, "El mundo tiene más historias."),
+]
+MARKS = dict(hook=0.0, crystal=1.84, num=3.2, why=7.35, trick=8.24, squeeze=9.96, volt=12.24, bends=13.92, fork=15.04, forkname=17.68,
+             circuit=19.28, kicks=20.16, vibrates=22.12, bell=24.76, whynum=26.8, pow=28.48, chip=30.88, again=32.52, fifteen=34.36,
+             onehz=36.0, pulse=37.76, motor=39.52, hand=41.4, tic=43.2, curious=43.82, mech=46.16, perday=49.28, quartz=50.96, month=53.92,
+             brand=56.06, end=59.44)
+MUSIC = dict(seed=191, sections=[('hook', 'Dsus'), ('why', 'Gm'), ('squeeze', 'D'), ('fork', 'Bb'), ('circuit', 'Gm'), ('whynum', 'F'),
+             ('chip', 'Bb'), ('onehz', 'D'), ('motor', 'Gm'), ('curious', 'Gm'), ('quartz', 'Bb'), ('brand', 'END')],
+             shimmer=('why', 'end'), pulses=[('circuit', 'whynum', .5)],
+             risers=['why', 'whynum', 'curious', 'brand'],
+             hits=[(0.02, .9), ('num', .6), ('squeeze', .4), ('bends', .4), ('pow', .6), ('pulse', .5), ('perday', .4), ('month', .6), ('brand', .5)])
+SFX = [
+ ('impact_a', 'hook', 0, .8),
+ ('qz_ring_a', 'num', 0, .35),
+ ('qz_zap_a', 'squeeze', .3, .5),
+ ('qz_zap_a', 'volt', .9, .4),
+ ('qz_ring_a', 'vibrates', 0, .35, dict(dur='whynum', loop=True, fi=.3, fo=.5)),
+ ('impact_b', 'pow', 0, .45),
+ ('qz_tick_a', 'pulse', .2, .6),
+ ('qz_tick_a', 'tic', 0, .8),
+ ('whoosh_a', 'curious', -.2, .45),
+ ('qz_tick_a', 'quartz', 0, .4),
+ ('whoosh_a', 'brand', -.3, .6),
+]

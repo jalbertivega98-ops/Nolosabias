@@ -1,0 +1,89 @@
+1
+00:00:00,175 --> 00:00:03,033
+Un airbag se infla en menos tiempo
+del que tardas en parpadear.
+
+2
+00:00:03,125 --> 00:00:04,467
+¿Cómo lo hace tan rápido?
+
+3
+00:00:04,600 --> 00:00:07,380
+Cuando el coche choca,
+un sensor nota el frenazo brusco:
+
+4
+00:00:07,400 --> 00:00:09,780
+una pieza diminuta dentro
+de un chip se desplaza,
+
+5
+00:00:09,800 --> 00:00:12,367
+y la electrónica decide en
+unas milésimas de segundo.
+
+6
+00:00:12,467 --> 00:00:14,533
+Entonces enciende
+un pequeño detonador.
+
+7
+00:00:14,667 --> 00:00:16,713
+Dentro hay una pastilla química
+que arde de golpe
+
+8
+00:00:16,733 --> 00:00:19,480
+y suelta muchísimo gas,
+sobre todo nitrógeno…
+
+9
+00:00:19,500 --> 00:00:21,000
+el mismo que respiras en el aire.
+
+10
+00:00:21,133 --> 00:00:23,213
+La bolsa se llena en unos
+treinta milisegundos,
+
+11
+00:00:23,233 --> 00:00:25,033
+a más de doscientos
+kilómetros por hora.
+
+12
+00:00:25,333 --> 00:00:28,233
+Pero lo importante no es inflarse:
+es desinflarse.
+
+13
+00:00:28,467 --> 00:00:31,313
+La bolsa tiene agujeros, y cuando
+tu cuerpo choca contra ella,
+
+14
+00:00:31,333 --> 00:00:34,233
+el gas escapa y te frena poco a poco,
+en vez de de golpe.
+
+15
+00:00:34,450 --> 00:00:38,200
+Y lo más curioso: un parpadeo dura
+unos ciento cincuenta milisegundos.
+
+16
+00:00:38,267 --> 00:00:39,913
+Cuando terminas de cerrar los ojos…
+
+17
+00:00:39,933 --> 00:00:42,633
+el airbag ya se ha inflado
+y ha empezado a desinflarse.
+
+18
+00:00:42,983 --> 00:00:43,900
+¿NO LO SABÍAS?
+
+19
+00:00:44,000 --> 00:00:45,767
+El mundo tiene más historias.
