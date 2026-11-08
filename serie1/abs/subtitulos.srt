@@ -1,0 +1,101 @@
+1
+00:00:00,067 --> 00:00:03,313
+Si frenas a fondo, tu coche
+suelta y aprieta los frenos
+
+2
+00:00:03,333 --> 00:00:06,667
+más de diez veces por segundo…
+sin que tú hagas nada.
+
+3
+00:00:06,825 --> 00:00:09,333
+¿Por qué? Porque una rueda
+bloqueada es peligrosa.
+
+4
+00:00:09,400 --> 00:00:11,480
+Si deja de girar,
+patina sobre el asfalto:
+
+5
+00:00:11,500 --> 00:00:13,263
+agarra menos,
+tardas más en parar…
+
+6
+00:00:13,283 --> 00:00:15,767
+y aunque gires el volante,
+el coche sigue recto.
+
+7
+00:00:15,933 --> 00:00:19,413
+Una rueda que todavía gira,
+aunque sea un poco, agarra mucho mejor.
+
+8
+00:00:19,433 --> 00:00:21,247
+Ahí entra el ABS.
+
+9
+00:00:21,267 --> 00:00:24,380
+En cada rueda hay un sensor:
+un aro con dientes que gira con ella
+
+10
+00:00:24,400 --> 00:00:26,480
+y un imán que cuenta
+los dientes al pasar.
+
+11
+00:00:26,500 --> 00:00:29,480
+Así el ordenador sabe a qué
+velocidad gira cada rueda.
+
+12
+00:00:29,500 --> 00:00:33,147
+Si una frena de golpe mucho más
+que las otras, está a punto de bloquearse.
+
+13
+00:00:33,167 --> 00:00:36,613
+Unas válvulas le quitan presión
+al freno durante unas milésimas…
+
+14
+00:00:36,633 --> 00:00:38,900
+la rueda vuelve a girar…
+y se vuelve a apretar.
+
+15
+00:00:39,000 --> 00:00:41,233
+Suelta, aprieta,
+suelta, aprieta.
+
+16
+00:00:41,533 --> 00:00:44,647
+Por eso, al frenar fuerte,
+notas el pedal vibrando bajo el pie:
+
+17
+00:00:44,667 --> 00:00:47,133
+no es una avería,
+es el ABS trabajando.
+
+18
+00:00:47,250 --> 00:00:51,333
+Y lo más curioso: el ABS no nació
+para los coches, sino para los aviones.
+
+19
+00:00:51,400 --> 00:00:55,667
+En los años cincuenta ya se usaba para que sus
+ruedas no patinaran y reventaran al aterrizar.
+
+20
+00:00:55,917 --> 00:00:56,800
+¿NO LO SABÍAS?
+
+21
+00:00:56,867 --> 00:00:58,767
+El mundo tiene más historias.

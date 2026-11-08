@@ -1,0 +1,103 @@
+1
+00:00:00,067 --> 00:00:03,013
+Este tren va a más de
+cuatrocientos kilómetros por hora…
+
+2
+00:00:03,033 --> 00:00:04,467
+y no toca las vías.
+
+3
+00:00:04,675 --> 00:00:06,233
+¿Cómo flota? Con imanes.
+
+4
+00:00:06,467 --> 00:00:09,233
+Dos polos iguales se repelen,
+y dos opuestos se atraen.
+
+5
+00:00:09,533 --> 00:00:12,013
+En el de Shanghái, el tren
+abraza la vía por debajo,
+
+6
+00:00:12,033 --> 00:00:14,433
+y unos electroimanes tiran
+hacia arriba, hacia el raíl.
+
+7
+00:00:14,667 --> 00:00:16,967
+Pero si se acercan demasiado,
+se quedarían pegados.
+
+8
+00:00:17,067 --> 00:00:20,300
+Por eso unos sensores miden la
+distancia miles de veces por segundo
+
+9
+00:00:20,467 --> 00:00:23,500
+y ajustan la fuerza para que el
+hueco sea siempre de un centímetro.
+
+10
+00:00:23,600 --> 00:00:25,100
+¿Y sin ruedas, cómo avanza?
+
+11
+00:00:25,333 --> 00:00:26,833
+La vía está llena de bobinas.
+
+12
+00:00:27,000 --> 00:00:29,180
+La corriente salta de una
+a otra en secuencia,
+
+13
+00:00:29,200 --> 00:00:31,813
+y los polos magnéticos van
+corriendo a lo largo de la vía:
+
+14
+00:00:31,833 --> 00:00:34,300
+tiran del tren hacia delante…
+y lo empujan desde atrás.
+
+15
+00:00:34,600 --> 00:00:37,900
+Es como un motor eléctrico desenrollado
+y estirado a lo largo de kilómetros.
+
+16
+00:00:38,133 --> 00:00:40,780
+Y como no roza con la vía,
+su gran enemigo es el aire:
+
+17
+00:00:40,800 --> 00:00:42,367
+por eso tiene el morro
+tan alargado.
+
+18
+00:00:42,467 --> 00:00:44,447
+Y lo más curioso:
+en 2015,
+
+19
+00:00:44,467 --> 00:00:47,613
+un maglev japonés llegó a
+603 kilómetros por hora.
+
+20
+00:00:47,633 --> 00:00:49,900
+Más rápido de lo que va
+un avión cuando despega.
+
+21
+00:00:50,250 --> 00:00:51,247
+¿NO LO SABÍAS?
+
+22
+00:00:51,267 --> 00:00:53,033
+El mundo tiene más historias.

@@ -1,0 +1,108 @@
+1
+00:00:00,117 --> 00:00:02,747
+A este código le puede
+faltar casi un tercio…
+
+2
+00:00:02,767 --> 00:00:04,033
+y aun así funciona.
+
+3
+00:00:04,325 --> 00:00:05,580
+¿Cómo lo lee tu móvil?
+
+4
+00:00:05,600 --> 00:00:07,847
+Primero busca los tres
+cuadrados de las esquinas.
+
+5
+00:00:07,867 --> 00:00:11,113
+Siempre son iguales, y sus franjas
+siguen una proporción única:
+
+6
+00:00:11,133 --> 00:00:13,680
+1 : 1 : 3 : 1 : 1
+
+7
+00:00:13,700 --> 00:00:15,513
+Casi nunca aparece
+por casualidad.
+
+8
+00:00:15,533 --> 00:00:17,647
+Con ellos, el móvil sabe
+dónde está el código,
+
+9
+00:00:17,667 --> 00:00:20,080
+cuánto está girado y
+desde qué ángulo lo miras.
+
+10
+00:00:20,100 --> 00:00:22,022
+Luego divide el resto
+en una cuadrícula:
+
+11
+00:00:22,042 --> 00:00:25,047
+cada cuadradito negro es un 1,
+y cada blanco, un 0.
+
+12
+00:00:25,067 --> 00:00:27,147
+Agrupados de ocho en ocho,
+forman letras:
+
+13
+00:00:27,167 --> 00:00:29,367
+una web, un menú, un pago.
+
+14
+00:00:29,667 --> 00:00:31,567
+¿Y si una parte está
+rota o manchada?
+
+15
+00:00:31,667 --> 00:00:34,780
+El código añade información de sobra,
+calculada con matemáticas:
+
+16
+00:00:34,800 --> 00:00:37,900
+la corrección de errores Reed-Solomon,
+la misma que usaban los CD.
+
+17
+00:00:38,133 --> 00:00:41,547
+Con ella, el móvil puede reconstruir
+hasta un 30 % que falte.
+
+18
+00:00:41,567 --> 00:00:44,433
+Por eso hay códigos con un logo
+en medio… y siguen funcionando.
+
+19
+00:00:44,667 --> 00:00:48,033
+Y lo más curioso: el QR
+lo inventó en 1994
+
+20
+00:00:48,133 --> 00:00:51,813
+una empresa japonesa de piezas de coche,
+para seguir los recambios en sus fábricas.
+
+21
+00:00:51,833 --> 00:00:54,200
+Y decidió no cobrar
+a nadie por usarlo.
+
+22
+00:00:54,517 --> 00:00:55,480
+¿NO LO SABÍAS?
+
+23
+00:00:55,500 --> 00:00:57,367
+El mundo tiene más historias.
