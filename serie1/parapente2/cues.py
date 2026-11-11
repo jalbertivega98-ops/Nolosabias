@@ -1,0 +1,47 @@
+# Vídeo parapente 2 · Cómo se vuelan 500 km sin motor — voz Edge TTS es-ES-AlvaroNeural (+20 %), una frase por archivo
+K = 1.0
+CUES = [
+ (0.1, 1.25, 'Más de 500 kilómetros.'),
+ (1.45, 5.01, 'En parapente. Sin motor.\nEn un solo día.'),
+ (5.21, 7.18, 'Casi como ir de Madrid\na Barcelona… volando.'),
+ (7.58, 9.13, '¿Cómo, si un parapente\nsiempre baja?'),
+ (9.28, 11.42, 'Saltando de una corriente\nde aire que sube a otra.'),
+ (11.82, 14.89, 'Cuando el viento choca contra\nuna ladera, no tiene otra salida: sube.'),
+ (15.14, 18.78, 'Es la dinámica. Con ella puedes pasar\nhoras sobre la misma montaña.'),
+ (19.18, 22.69, 'Pero para viajar necesitas térmicas:\nburbujas de aire caliente\nque despegan del suelo.'),
+ (22.94, 25.74, 'Subes girando dentro… y arriba\nsales disparado hacia la siguiente.'),
+ (26.19, 27.08, '¿Y cómo vas más rápido?'),
+ (27.23, 29.5, 'Con el acelerador: una barra\nque empujas con los pies.'),
+ (29.7, 35.12, 'Baja el borde de delante,\nel ala ataca el aire más plana…\ny pasas de 38 a más de 50 km/h.'),
+ (35.37, 37.57, 'Pero cuanto más rápido vas,\nmás deprisa bajas.'),
+ (37.82, 40.16, 'Así que en cada tramo decides:\ncorrer, o flotar.'),
+ (40.61, 42.23, 'Y el mejor aliado es el viento a favor.'),
+ (42.43, 45.72, 'Si sopla a 30 km/h,\ncada planeo te regala 30 más.'),
+ (46.17, 47.8, 'Y cuando el viento pone las nubes en fila…'),
+ (47.85, 51.3, 'aparecen las calles de nubes: kilómetros\nde aire que sube, en línea recta.'),
+ (51.5, 52.54, 'Ahí se vuela sin girar.'),
+ (52.99, 56.98, 'Así se baten los récords en Brasil:\nmás de 10 horas en el aire,\nde la mañana al atardecer.'),
+ (57.48, 61.9, '¿Y tú? ¿Cuál ha sido tu vuelo más largo?\nCuéntanoslo en comentarios.'),
+ (62.8, 63.45, '¿NO LO SABÍAS?'),
+ (63.53, 64.79, 'El mundo tiene más historias.'),
+]
+MARKS = {'hook': 0.1, 'nomotor': 1.452, 'madrid': 5.21, 'how': 7.58, 'jump': 9.284, 'ridge': 11.816, 'dyn': 15.139, 'therm': 19.178, 'climb': 22.939, 'faster': 26.187, 'bar': 27.235, 'nose': 29.7, 'sink': 35.371, 'choose': 37.815, 'wind': 40.613, 'plus': 42.434, 'line': 46.171, 'streets': 47.849, 'straight': 51.498, 'brazil': 52.986, 'you': 57.482, 'brand': 62.799, 'tag': 63.533, 'end': 64.793}
+MUSIC = dict(seed=47, sections=[('hook', 'Dsus'), ('how', 'Gm'), ('ridge', 'D'), ('therm', 'Bb'), ('faster', 'Gm'), ('nose', 'F'), ('choose', 'Bb'),
+             ('wind', 'D'), ('line', 'F'), ('streets', 'C'), ('brazil', 'Bb'), ('you', 'D'), ('brand', 'END')],
+             shimmer=('ridge', 'end'), pulses=[('nose', 'sink', .5)],
+             risers=['how', 'ridge', 'therm', 'faster', 'wind', 'line', 'brazil', 'brand'],
+             hits=[(0.12, .9), ('madrid', .5), ('jump', .5), ('climb', .5), ('nose', .55), ('plus', .5), ('streets', .6), ('brazil', .5), ('brand', .5)])
+SFX = [
+ ('impact_a', 'hook', 0, .9),
+ ('pp_wind_a', 'hook', 0, .3, dict(dur='how', loop=True, fo=.5)),
+ ('pp_sink', 'how', .3, .25, dict(dur='jump', fo=.4)),
+ ('pp_wind_b', 'ridge', 0, .3, dict(dur='therm', loop=True, fi=.5, fo=.6)),
+ ('pp_vario_b', 'dyn', .4, .3, dict(dur=3.0, loop=True, fo=.4)),
+ ('pp_vario_a', 'climb', 0, .35, dict(dur=2.6, loop=True, fi=.1, fo=.3)),
+ ('pp_wind_a', 'nose', 0, .32, dict(dur='choose', loop=True, fi=.6, fo=.6)),
+ ('pp_sink', 'sink', .3, .22, dict(dur=2.0, fo=.4)),
+ ('pp_wind_b', 'wind', 0, .28, dict(dur='line', loop=True, fi=.5, fo=.6)),
+ ('impact_b', 'streets', 0, .5),
+ ('pp_vario_b', 'straight', 0, .3, dict(dur=2.5, loop=True, fo=.4)),
+ ('whoosh_a', 'brand', -.3, .6),
+]
