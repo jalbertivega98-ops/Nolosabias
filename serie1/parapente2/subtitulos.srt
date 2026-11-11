@@ -1,110 +1,110 @@
 1
-00:00:00,100 --> 00:00:01,350
+00:00:00,042 --> 00:00:01,592
 Más de 500 kilómetros.
 
 2
-00:00:01,450 --> 00:00:05,110
+00:00:01,775 --> 00:00:04,492
 En parapente. Sin motor.
 En un solo día.
 
 3
-00:00:05,210 --> 00:00:07,280
+00:00:04,858 --> 00:00:06,992
 Casi como ir de Madrid
 a Barcelona… volando.
 
 4
-00:00:07,580 --> 00:00:09,230
+00:00:07,417 --> 00:00:08,992
 ¿Cómo, si un parapente
 siempre baja?
 
 5
-00:00:09,280 --> 00:00:11,520
+00:00:09,300 --> 00:00:11,500
 Saltando de una corriente
 de aire que sube a otra.
 
 6
-00:00:11,820 --> 00:00:14,990
+00:00:11,817 --> 00:00:14,333
 Cuando el viento choca contra
 una ladera, no tiene otra salida: sube.
 
 7
-00:00:15,140 --> 00:00:18,880
+00:00:14,583 --> 00:00:18,467
 Es la dinámica. Con ella puedes pasar
 horas sobre la misma montaña.
 
 8
-00:00:19,180 --> 00:00:22,790
+00:00:18,758 --> 00:00:22,792
 Pero para viajar necesitas térmicas:
 burbujas de aire caliente
 que despegan del suelo.
 
 9
-00:00:22,940 --> 00:00:25,840
+00:00:23,075 --> 00:00:26,325
 Subes girando dentro… y arriba
 sales disparado hacia la siguiente.
 
 10
-00:00:26,190 --> 00:00:27,180
+00:00:26,608 --> 00:00:27,575
 ¿Y cómo vas más rápido?
 
 11
-00:00:27,230 --> 00:00:29,600
+00:00:27,808 --> 00:00:30,308
 Con el acelerador: una barra
 que empujas con los pies.
 
 12
-00:00:29,700 --> 00:00:35,220
+00:00:30,492 --> 00:00:36,192
 Baja el borde de delante,
 el ala ataca el aire más plana…
 y pasas de 38 a más de 50 km/h.
 
 13
-00:00:35,370 --> 00:00:37,670
+00:00:36,483 --> 00:00:38,625
 Pero cuanto más rápido vas,
 más deprisa bajas.
 
 14
-00:00:37,820 --> 00:00:40,260
+00:00:38,725 --> 00:00:41,383
 Así que en cada tramo decides:
 correr, o flotar.
 
 15
-00:00:40,610 --> 00:00:42,330
+00:00:41,675 --> 00:00:43,375
 Y el mejor aliado es el viento a favor.
 
 16
-00:00:42,430 --> 00:00:45,820
+00:00:43,642 --> 00:00:47,058
 Si sopla a 30 km/h,
 cada planeo te regala 30 más.
 
 17
-00:00:46,170 --> 00:00:47,830
+00:00:47,258 --> 00:00:48,950
 Y cuando el viento pone las nubes en fila…
 
 18
-00:00:47,850 --> 00:00:51,400
+00:00:49,150 --> 00:00:52,975
 aparecen las calles de nubes: kilómetros
 de aire que sube, en línea recta.
 
 19
-00:00:51,500 --> 00:00:52,640
+00:00:53,233 --> 00:00:54,425
 Ahí se vuela sin girar.
 
 20
-00:00:52,990 --> 00:00:57,080
+00:00:54,775 --> 00:00:59,133
 Así se baten los récords en Brasil:
 más de 10 horas en el aire,
 de la mañana al atardecer.
 
 21
-00:00:57,480 --> 00:01:02,000
+00:00:59,442 --> 00:01:02,592
 ¿Y tú? ¿Cuál ha sido tu vuelo más largo?
 Cuéntanoslo en comentarios.
 
 22
-00:01:02,800 --> 00:01:03,510
+00:01:02,917 --> 00:01:03,642
 ¿NO LO SABÍAS?
 
 23
-00:01:03,530 --> 00:01:04,890
+00:01:03,842 --> 00:01:05,492
 El mundo tiene más historias.
