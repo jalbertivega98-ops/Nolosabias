@@ -1,0 +1,17 @@
+hook|Cuando tu perro inclina la cabeza mientras le hablas, no está poniendo cara de bueno.
+intent|Está intentando entenderte.
+study|En 2021, unos investigadores compararon perros normales con perros capaces de aprenderse los nombres de decenas de juguetes.
+p43|Al oír el nombre de un juguete, los genios inclinaban la cabeza en el cuarenta y tres por ciento de las veces.
+rest|Los demás, casi nunca.
+focus|Inclinar la cabeza parece ser su forma de concentrarse en lo que dices.
+tail|¿Y la cola? No da igual hacia dónde la mueva.
+right|Cuando ve a su dueño, la mueve más hacia la derecha.
+left|Ante un perro desconocido que le intimida, más hacia la izquierda.
+others|Y otros perros notan la diferencia.
+yawn|¿Te bosteza cuando le riñes? No es sueño: a menudo es una señal para calmarse.
+contag|Y se le contagia mucho más tu bostezo que el de un extraño.
+kick|¿Esas patadas al suelo después de hacer caca?
+glands|Tiene glándulas de olor entre los dedos. Está firmando.
+eyes|Y lo más increíble: esos ojos de cachorro que te desarman.
+muscle|Los perros tienen un músculo junto a la ceja que los lobos casi no tienen.
+select|Lo fuimos seleccionando sin querer… porque no podíamos decirles que no.
