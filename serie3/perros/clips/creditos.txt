@@ -1,0 +1,24 @@
+Créditos de clips — todos de Pexels (https://www.pexels.com), Pexels License: uso comercial gratuito, sin atribución obligatoria.
+Recortados a 20 s y sin audio los que superaban 20 s (re-encode H.264 CRF 20, 1080p).
+
+archivo | resolución | duración | URL | autor | licencia
+01_head_tilt_a.mp4 | 1920x1080 | 20.0 s | https://www.pexels.com/video/close-up-view-of-a-cute-dog-7682702/ | KoolShooters | Pexels License
+01_head_tilt_b.mp4 | 1080x1920 | 7.8 s | https://www.pexels.com/video/playful-dog-outdoors-under-a-bright-sky-38978558/ | celal keser | Pexels License
+01_head_tilt_c.mp4 | 2048x1080 | 20.0 s | https://www.pexels.com/video/shallow-focus-of-cute-white-dog-5500759/ | Anastasia  Shuraeva | Pexels License
+02_tail_wag_a.mp4 | 1920x1080 | 6.4 s | https://www.pexels.com/video/dog-s-tail-wagging-7515917/ | RDNE Stock project | Pexels License
+02_tail_wag_b.mp4 | 1080x1872 | 9.7 s | https://www.pexels.com/video/video-of-dog-wagging-its-tail-6666532/ | ROMAN ODINTSOV | Pexels License
+03_owner_greeting_a.mp4 | 1920x1080 | 18.4 s | https://www.pexels.com/video/dog-walking-through-the-open-door-6712079/ | Martina Tomšič | Pexels License
+03_owner_greeting_b.mp4 | 1920x1080 | 20.0 s | https://www.pexels.com/video/a-dog-walking-towards-to-its-owner-7616850/ | Los Muertos Crew | Pexels License
+04_dogs_meeting_sniff_a.mp4 | 1920x1080 | 11.2 s | https://www.pexels.com/video/charming-dogs-resting-and-sniffing-outdoors-34710282/ | Cheng Shi Song | Pexels License
+04_dogs_meeting_sniff_b.mp4 | 2048x1080 | 20.0 s | https://www.pexels.com/video/playful-dogs-interacting-on-green-field-31710569/ | Usman AbdulrasheedGambo | Pexels License
+05_yawn_a.mp4 | 1080x1920 | 5.5 s | https://www.pexels.com/video/golden-retriever-sitting-outdoors-in-sunny-weather-36040957/ | celal keser | Pexels License
+05_yawn_b.mp4 | 1080x1920 | 9.7 s | https://www.pexels.com/video/relaxed-anatolian-shepherd-dog-outdoors-36962770/ | celal keser | Pexels License
+06_digging_ground_a.mp4 | 1080x1920 | 8.6 s | https://www.pexels.com/video/energetic-dog-digging-in-sunny-park-38079931/ | Artur Vander PiloT | Pexels License
+06_digging_ground_b.mp4 | 1920x1080 | 20.0 s | https://www.pexels.com/video/dogs-digging-in-ground-10881122/ | khanhhoangminh | Pexels License
+07_puppy_eyes_a.mp4 | 1080x1920 | 12.3 s | https://www.pexels.com/video/close-up-of-black-labrador-dog-outdoors-31147384/ | K | Pexels License
+08_wolf_face_a.mp4 | 1920x1080 | 20.0 s | https://www.pexels.com/video/wolf-looking-around-10727436/ | Nicky Pe | Pexels License
+08_wolf_face_b.mp4 | 1920x1080 | 18.4 s | https://www.pexels.com/video/close-up-of-wolf-13672301/ | Nicky Pe | Pexels License
+09_toys_a.mp4 | 1080x1920 | 12.6 s | https://www.pexels.com/video/dogs-playing-with-toy-on-the-floor-7297313/ | ArtHouse Studio | Pexels License
+09_toys_b.mp4 | 1080x1920 | 7.6 s | https://www.pexels.com/video/dog-and-toy-13260857/ | Jane Mikhaylovsky | Pexels License
+
+Notas: 06_digging_ground = perro escarbando con patas delanteras (no encontré clip claro de patada hacia atrás tras orinar). No encontré 'montón de juguetes'; 09_toys son perros jugando con juguetes.
