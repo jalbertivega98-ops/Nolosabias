@@ -1,0 +1,2 @@
+vo_perros_reales.mp3 https://elevenlabsusercontent.com/database/workspace/0cd299de1a284bdc9eef2184a266d132/content_generation/qFZyuVtpJUZJZiaL3cIg/cKjyllWy0FI9abcvZrkA/content.mp3?Expires=1794528000&KeyName=assets-cdn-key-1&Signature=X1T01tsoGvT5l124LAZBOlHSNr0=
+vo_perros_3d.mp3 https://elevenlabsusercontent.com/database/workspace/0cd299de1a284bdc9eef2184a266d132/content_generation/oVuYOZaiOvRe6DSRVe6O/wlnHKAkWuagJ7Zow5rRV/content.mp3?Expires=1794528000&KeyName=assets-cdn-key-1&Signature=zj51Usx4JV_EBo0h5lEqBLt1rTg=
