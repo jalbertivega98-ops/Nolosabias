@@ -209,5 +209,11 @@ export function buildDog(B, opts = {}) {
   const ears = [-1, 1].map(s => { const piv = new THREE.Group(); piv.position.set(s * (B.earUp ? .5 : .8), B.earUp ? .78 : .5, B.earUp ? -.15 : .02); head.add(piv);
     piv.rotation.z = s * (B.earUp ? -.35 : .1); piv.rotation.y = s * (B.earUp ? .35 : 0);
     earFur.mats.forEach(m => piv.add(new THREE.Mesh(eg, m))); return piv; });
-  return { root, head, eyes, ears, nose, tears, drops, tearMat, fur: shared, furMeshes, B };
+  // lengua (para jadear): cuelga de la boca, oculta por defecto
+  const tongue = new THREE.Group(); tongue.position.set(0, -.6, sz - .35); head.add(tongue); tongue.visible = false;
+  { const tg = new THREE.SphereGeometry(1, 32, 16); const tm = new THREE.MeshPhysicalMaterial({ color: 0xd86a78, roughness: .35, clearcoat: .6, clearcoatRoughness: .25, envMap: env, envMapIntensity: .5, sheen: .3 });
+    const t1 = new THREE.Mesh(tg, tm); t1.scale.set(.2, .045, .42); t1.position.set(0, -.05, .25); t1.rotation.x = .75; tongue.add(t1);
+    const t2 = new THREE.Mesh(tg, tm); t2.scale.set(.19, .045, .22); t2.position.set(0, -.36, .44); t2.rotation.x = 1.35; tongue.add(t2);
+    const mouth = new THREE.Mesh(new THREE.SphereGeometry(1, 20, 12), new THREE.MeshBasicMaterial({ color: 0x220a0c })); mouth.scale.set(.24, .07, .2); mouth.position.set(0, .02, .02); tongue.add(mouth); }
+  return { root, head, eyes, ears, nose, tears, drops, tearMat, fur: shared, furMeshes, B, tongue };
 }

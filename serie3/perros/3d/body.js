@@ -110,7 +110,7 @@ export function buildBody(B, opts = {}) {
     pos.needsUpdate = true; nor.needsUpdate = true;
     holder.matrix.copy(M[idx.head]); holder.matrixWorldNeedsUpdate = true;
   }
-  function reset() { for (const n of names) bone[n].rotation.set(0, 0, 0); const r = bone.pelvis.userData.rest; bone.pelvis.position.copy(r); }
+  function reset() { for (const n of names) bone[n].rotation.set(0, 0, 0); const r = bone.pelvis.userData.rest; bone.pelvis.position.copy(r); bone.chest.scale.set(1, 1, 1); }
   // Parámetros de pose (todos opcionales):
   // walk {ph, amp, gait:'trot'|'gallop'}, tail {ph, amp, bias(+ = su derecha), up}, shake {ph, amp}, bow (0..1), headYaw, headPitch, headRoll, crouch
   function pose(p = {}) {
@@ -141,7 +141,9 @@ export function buildBody(B, opts = {}) {
     { const tl = p.tail || {}; const { ph = 0, amp = 0, bias = 0, up = 0, stiff = 0 } = tl;
       for (let i = 0; i < 5; i++) { const b = bone['t' + i]; const lag = ph - i * (.55 - stiff * .45);
         b.rotation.y += (Math.sin(lag) * amp + bias) * (i ? .55 : .9); b.rotation.x = up * (i ? .1 : .7) - (i ? .04 * (1 - Math.min(1, up)) : 0); } }
+    if (p.bones) for (const k in p.bones) bone[k].rotation.x += p.bones[k]; // ajustes finos por hueso (rotación x)
     bone.head.rotation.set(p.headPitch || 0, p.headYaw || 0, p.headRoll || 0);
+    D.tongue.visible = !!p.pant; if (p.pant) { const q = Math.sin(p.pant.ph); D.tongue.rotation.x = .08 * q; D.tongue.scale.setScalar(1 + .04 * q); D.tongue.position.y = -.6 - .03 * q; ch.scale.set(1 + .03 * Math.max(0, q), 1 + .02 * Math.max(0, q), 1); }
     if (p.headYaw) bone.neck.rotation.y += p.headYaw * .4;
     apply();
     D.ears.forEach((e, i) => { const s = i ? 1 : -1; e.rotation.z = s * (.1 + (p.ear || 0) * .18) + (p.shake ? Math.sin(p.shake.ph - .3) * .5 * (p.shake.amp || 1) : 0); e.rotation.x = -(p.ear || 0) * .35; });
