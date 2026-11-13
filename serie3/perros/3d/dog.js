@@ -6,8 +6,8 @@ import { mergeVertices } from 'three/addons/utils/BufferGeometryUtils.js';
 const { Vector3 } = THREE;
 // ---------- primitivas SDF ----------
 const len3 = (x, y, z) => Math.sqrt(x * x + y * y + z * z);
-function sdEll(px, py, pz, c, r) { const x = (px - c[0]) / r[0], y = (py - c[1]) / r[1], z = (pz - c[2]) / r[2]; const k0 = len3(x, y, z); const k1 = len3(x / r[0], y / r[1], z / r[2]); return k1 < 1e-6 ? -Math.min(...r) : k0 * (k0 - 1) / k1; }
-function sdRoundCone(px, py, pz, a, b, r1, r2) {
+export function sdEll(px, py, pz, c, r) { const x = (px - c[0]) / r[0], y = (py - c[1]) / r[1], z = (pz - c[2]) / r[2]; const k0 = len3(x, y, z); const k1 = len3(x / r[0], y / r[1], z / r[2]); return k1 < 1e-6 ? -Math.min(...r) : k0 * (k0 - 1) / k1; }
+export function sdRoundCone(px, py, pz, a, b, r1, r2) {
   const bax = b[0] - a[0], bay = b[1] - a[1], baz = b[2] - a[2]; const pax = px - a[0], pay = py - a[1], paz = pz - a[2];
   const l2 = bax * bax + bay * bay + baz * baz, rr = r1 - r2, a2 = l2 - rr * rr, il2 = 1 / l2;
   const y = pax * bax + pay * bay + paz * baz, z = y - l2;
@@ -17,8 +17,8 @@ function sdRoundCone(px, py, pz, a, b, r1, r2) {
   if (Math.sign(y) * a2 * y2 < k) return Math.sqrt(xx + y2) * il2 - r1;
   return (Math.sqrt(xx * a2 * il2) + y * rr) * il2 - r1;
 }
-const smin = (a, b, k) => { const h = Math.max(k - Math.abs(a - b), 0) / k; return Math.min(a, b) - h * h * k * .25; };
-const smax = (a, b, k) => -smin(-a, -b, k);
+export const smin = (a, b, k) => { const h = Math.max(k - Math.abs(a - b), 0) / k; return Math.min(a, b) - h * h * k * .25; };
+export const smax = (a, b, k) => -smin(-a, -b, k);
 
 // ---------- parámetros de raza ----------
 export const GOLDEN = {
@@ -42,7 +42,7 @@ function headSDF(B) {
     d = smin(d, sdRoundCone(x, y, z, [0, -.16, .5], [0, -.28 + (B.wolf ? .04 : 0), sz], B.snoutR[0], B.snoutR[1]), .3); // hocico
     d = smin(d, sdEll(ax, y, z, [.19, -.47, .95 + (B.snoutLen - 1) * .6], [.27, .24, .40 + (B.snoutLen - 1) * .3]), .14); // belfos
     d = smin(d, sdEll(x, y, z, [0, -.62, .72], [.33, .17, .5 + (B.snoutLen - 1) * .35]), .16); // mandíbula
-    d = smin(d, sdRoundCone(x, y, z, [0, -.35, -.35], [0, -2.3, -1.0], .82, 1.15), .45); // cuello y pecho
+    d = B.noNeck ? smin(d, sdRoundCone(x, y, z, [0, -.35, -.35], [0, -1.2, -.9], .8, .75), .4) : smin(d, sdRoundCone(x, y, z, [0, -.35, -.35], [0, -2.3, -1.0], .82, 1.15), .45); // cuello y pecho
     // comisura de la boca (surco)
     const mz = .55 + (B.snoutLen - 1) * .5;
     const groove = sdRoundCone(ax, y, z, [.3, -.55, mz], [.1, -.58, mz + .55], .028, .022); d = smax(d, -groove, .05);
@@ -72,7 +72,7 @@ function earSDF(B) {
 }
 
 // ---------- marching cubes sobre una caja ----------
-function mesh(sdf, lo, hi, step) {
+export function mesh(sdf, lo, hi, step) {
   const nx = Math.ceil((hi[0] - lo[0]) / step) + 1, ny = Math.ceil((hi[1] - lo[1]) / step) + 1, nz = Math.ceil((hi[2] - lo[2]) / step) + 1;
   const F = new Float32Array(nx * ny * nz); const id = (i, j, k) => i + nx * (j + ny * k);
   for (let k = 0; k < nz; k++) for (let j = 0; j < ny; j++) for (let i = 0; i < nx; i++) F[id(i, j, k)] = sdf(lo[0] + i * step, lo[1] + j * step, lo[2] + k * step);
@@ -96,17 +96,17 @@ function mesh(sdf, lo, hi, step) {
 // ---------- material de pelo (capas) ----------
 const furVS = `
   uniform float uLayer, uLen, uDroop; uniform vec3 uWind;
-  attribute vec3 color; attribute float flen; varying float vL; varying vec3 vC; varying vec3 vN; varying vec3 vP; varying vec3 vW; varying vec3 vV;
-  void main(){ vL=flen; vec3 p=position+normal*uLen*uLayer*flen; p.y-=uDroop*uLayer*uLayer*flen; p+=uWind*uLayer*uLayer;
+  attribute vec3 color; attribute float flen; varying float vL; varying vec3 vC; varying vec3 vN; varying vec3 vP; varying vec3 vW; varying vec3 vV; varying vec3 vNo;
+  void main(){ vL=flen; vNo=normal; vec3 p=position+normal*uLen*uLayer*flen; p.y-=uDroop*uLayer*uLayer*flen; p+=uWind*uLayer*uLayer;
     vec4 w=modelMatrix*vec4(p,1.); vW=w.xyz; vP=position; vC=color; vN=normalize(mat3(modelMatrix)*normal); vV=normalize(cameraPosition-w.xyz);
     gl_Position=projectionMatrix*viewMatrix*w; }`;
 const furFS = `
   uniform float uLayer, uDens, uAlpha; uniform vec3 uKey, uKeyC, uFillC, uRimC, uAmb; uniform float uTint; uniform vec3 uTintC;
-  varying float vL; varying vec3 vC; varying vec3 vN; varying vec3 vP; varying vec3 vW; varying vec3 vV;
+  varying float vL; varying vec3 vC; varying vec3 vN; varying vec3 vP; varying vec3 vW; varying vec3 vV; varying vec3 vNo;
   float h3(vec3 p){ return fract(sin(dot(p,vec3(127.1,311.7,74.7)))*43758.5453); }
   void main(){
     vec3 q=vP*uDens; vec3 c=floor(q); vec3 f=fract(q)-.5; float r=h3(c);
-    float strand=1.-length(f.xy*vec2(1.,1.)+f.yz*.0)*1.6; // hebra en celda
+    vec3 no=normalize(vNo); vec3 ft=f-dot(f,no)*no; float strand=1.-length(ft)*1.6; // hebra en celda (proyectada en el plano tangente)
     if(uLayer>0.&&vL<.08) discard;
     if(uLayer>0.){ float th=uLayer*(.55+r*.6); if(r<uLayer*.9 || strand<uLayer*.8) discard; }
     vec3 n=normalize(vN); float ndl=dot(n,normalize(uKey));
@@ -119,17 +119,17 @@ const furFS = `
     col=mix(col,uTintC*dot(col,vec3(.3,.5,.2))*2.,uTint);
     gl_FragColor=vec4(col,uAlpha);
   }`;
-function furMaterials(n, lenF, dens) {
+export function furMaterials(n, lenF, dens) {
   const shared = { uKey: { value: new Vector3(.6, .7, .9) }, uKeyC: { value: new THREE.Color(1.15, 1.0, .86) }, uFillC: { value: new THREE.Color(.35, .45, .7) },
     uRimC: { value: new THREE.Color(1.0, .75, .5) }, uAmb: { value: new THREE.Color(.1, .1, .14) }, uWind: { value: new Vector3() }, uTint: { value: 0 }, uTintC: { value: new THREE.Color(.5, .8, 1.2) }, uAlpha: { value: 1 } };
   const mats = []; for (let i = 0; i < n; i++) if (n === 1) mats.push(new THREE.ShaderMaterial({ vertexShader: furVS, fragmentShader: furFS, uniforms: { ...shared, uLayer: { value: 0 }, uLen: { value: 0 }, uDens: { value: dens }, uDroop: { value: 0 } } })); else for (let i = 0; i < n; i++) mats.push(new THREE.ShaderMaterial({ vertexShader: furVS, fragmentShader: furFS, transparent: false,
     uniforms: { ...shared, uLayer: { value: i / (n - 1) }, uLen: { value: lenF }, uDens: { value: dens }, uDroop: { value: lenF * .35 } } }));
   return { mats, shared };
 }
-function flenAttr(g, fn) { const p = g.attributes.position; const a = new Float32Array(p.count); for (let i = 0; i < p.count; i++) a[i] = fn(p.getX(i), p.getY(i), p.getZ(i)); g.setAttribute('flen', new THREE.BufferAttribute(a, 1)); }
-function colorize(g, fn) { const p = g.attributes.position; const c = new Float32Array(p.count * 3); for (let i = 0; i < p.count; i++) { const v = fn(p.getX(i), p.getY(i), p.getZ(i)); c[i * 3] = v[0]; c[i * 3 + 1] = v[1]; c[i * 3 + 2] = v[2]; } g.setAttribute('color', new THREE.BufferAttribute(c, 3)); }
-const mix3 = (a, b, t) => [a[0] + (b[0] - a[0]) * t, a[1] + (b[1] - a[1]) * t, a[2] + (b[2] - a[2]) * t];
-const sm = (a, b, x) => { const t = Math.min(1, Math.max(0, (x - a) / (b - a))); return t * t * (3 - 2 * t); };
+export function flenAttr(g, fn) { const p = g.attributes.position; const a = new Float32Array(p.count); for (let i = 0; i < p.count; i++) a[i] = fn(p.getX(i), p.getY(i), p.getZ(i)); g.setAttribute('flen', new THREE.BufferAttribute(a, 1)); }
+export function colorize(g, fn) { const p = g.attributes.position; const c = new Float32Array(p.count * 3); for (let i = 0; i < p.count; i++) { const v = fn(p.getX(i), p.getY(i), p.getZ(i)); c[i * 3] = v[0]; c[i * 3 + 1] = v[1]; c[i * 3 + 2] = v[2]; } g.setAttribute('color', new THREE.BufferAttribute(c, 3)); }
+export const mix3 = (a, b, t) => [a[0] + (b[0] - a[0]) * t, a[1] + (b[1] - a[1]) * t, a[2] + (b[2] - a[2]) * t];
+export const sm = (a, b, x) => { const t = Math.min(1, Math.max(0, (x - a) / (b - a))); return t * t * (3 - 2 * t); };
 
 // ---------- textura de la trufa (surcos) ----------
 function noseTexture() {
