@@ -1,0 +1,10 @@
+hook|Cuando tu perro corre a toda velocidad, durante un instante vuela.
+gallop|Al galope rápido, hay un momento en cada zancada en que las cuatro patas están en el aire.
+double|Y los galgos lo hacen dos veces por zancada: una con las patas estiradas y otra con las patas recogidas bajo el cuerpo.
+spine|El truco está en la espalda: se dobla y se estira como un muelle, y así cada zancada es mucho más larga.
+speed|Por eso un galgo puede pasar de setenta kilómetros por hora.
+sniff|Y cuando corre con el hocico pegado al suelo, va oliendo a la vez.
+rate|Olfatea unas cinco veces por segundo.
+slits|Y no echa el aire por donde lo coge: lo expulsa por las rendijas de los lados de la nariz, hacia atrás, para no soplar el rastro que sigue.
+pull|Ese chorro hasta ayuda a arrastrar olor nuevo hacia la nariz.
+you|¿Y el tuyo? ¿Es de los que corren como un galgo o de los que se paran a olerlo todo? Cuéntanoslo.
