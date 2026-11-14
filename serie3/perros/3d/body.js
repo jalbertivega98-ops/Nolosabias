@@ -134,6 +134,17 @@ export function buildBody(B, opts = {}) {
       for (const n of ['LH', 'RH']) { bone[n + 'u'].rotation.x = -.5 * k; bone[n + 'l'].rotation.x = .12 * k; bone[n + 'p'].rotation.x = .0 * k; }
       bone.neck.rotation.x = -.6 * k; }
     if (p.crouch) { const k = p.crouch; pel.position.y -= 1.2 * k; for (const n of Object.keys(LEGS)) { const f = n[1] === 'F'; bone[n + 'u'].rotation.x += (f ? .5 : -.6) * k; bone[n + 'l'].rotation.x += (f ? -1.0 : 1.1) * k; bone[n + 'p'].rotation.x += (f ? .5 : -.5) * k; } }
+    if (p.sit) { const k = p.sit; // sentado: cadera abajo, torso inclinado, manos rectas
+      pel.rotation.x += -.85 * k; pel.position.y -= 2.4 * k; pel.position.z += .6 * k; ch.rotation.x += .1 * k; bone.neck.rotation.x += .45 * k;
+      for (const n of ['LF', 'RF']) { bone[n + 'u'].rotation.x += .72 * k; bone[n + 'l'].rotation.x += .0 * k; bone[n + 'p'].rotation.x += .05 * k; }
+      for (const n of ['LH', 'RH']) { bone[n + 'u'].rotation.x += -.75 * k; bone[n + 'l'].rotation.x += 2.0 * k; bone[n + 'p'].rotation.x += -1.0 * k; } }
+    if (p.down) { const k = p.down; // tumbado como una esfinge
+      pel.position.y -= 4.0 * k; bone.neck.rotation.x += -.1 * k;
+      for (const n of ['LF', 'RF']) { bone[n + 'u'].rotation.x += -1.35 * k; bone[n + 'l'].rotation.x += .1 * k; bone[n + 'p'].rotation.x += 1.2 * k; }
+      for (const n of ['LH', 'RH']) { bone[n + 'u'].rotation.x += -1.25 * k; bone[n + 'l'].rotation.x += 2.3 * k; bone[n + 'p'].rotation.x += -1.0 * k; } }
+    if (p.curl) { const k = p.curl; // patas encogidas (panza arriba)
+      for (const n of ['LF', 'RF']) { bone[n + 'u'].rotation.x += -.6 * k; bone[n + 'l'].rotation.x += 1.5 * k; bone[n + 'p'].rotation.x += -.7 * k; }
+      for (const n of ['LH', 'RH']) { bone[n + 'u'].rotation.x += -.7 * k; bone[n + 'l'].rotation.x += .9 * k; bone[n + 'p'].rotation.x += -.3 * k; } }
     if (p.shake) { const { ph, amp = 1 } = p.shake; // la ola va de la cabeza a la cola
       bone.neck.rotation.z = Math.sin(ph) * .55 * amp; bone.neck.rotation.y = Math.sin(ph) * .25 * amp;
       ch.rotation.z = Math.sin(ph - .9) * .32 * amp; pel.rotation.z = Math.sin(ph - 1.8) * .16 * amp;
