@@ -59,8 +59,8 @@ shoe.position.set(-1.2, 1.25, .25); shoe.rotation.set(0, 0, -.35);
 const micro = new THREE.Group(); scene.add(micro); micro.position.set(200, 0, 0);
 const rockMicro = rockPlane(8, 8, 200, 200, .9, 1.3, 11, [.62, .54, .45]); rockMicro.rotation.x = -Math.PI / 2; micro.add(rockMicro);
 const rubGeo = new THREE.PlaneGeometry(7.6, 7.6, 190, 190); const rubBase = Float32Array.from(rubGeo.attributes.position.array);
-const rubber = new THREE.Mesh(rubGeo, new THREE.MeshStandardMaterial({ color: 0x3a3e48, roughness: .35, side: THREE.DoubleSide })); rubber.rotation.x = -Math.PI / 2; micro.add(rubber);
-function rubberFit(k, drop) { const p = rubGeo.attributes.position; for (let i = 0; i < p.count; i++) { const x = rubBase[i * 3], y = rubBase[i * 3 + 1]; const rockZ = (fbm(x * 1.3 + 11, y * 1.3) - .5) * .9; // misma superficie
+const rubber = new THREE.Mesh(rubGeo, new THREE.MeshStandardMaterial({ color: 0x9aa3b8, roughness: .45, side: THREE.DoubleSide })); rubber.rotation.x = -Math.PI / 2; rubber.scale.x = .5; rubber.position.x = -1.9; micro.add(rubber);
+function rubberFit(k, drop) { const p = rubGeo.attributes.position; for (let i = 0; i < p.count; i++) { const x = rubBase[i * 3] * .5 - 1.9, y = rubBase[i * 3 + 1]; const rockZ = (fbm(x * 1.3 + 11, y * 1.3) - .5) * .9; // misma superficie
     const flat = .55 + drop; p.setZ(i, Math.max(rockZ + .03, lerp(flat, Math.max(rockZ + .03, flat - .9), k) ) * (1) ); } p.needsUpdate = true; rubGeo.computeVertexNormals(); }
 
 // ==========================================================================
@@ -244,4 +244,6 @@ function renderFrame(t) {
 }
 function renderCover() { renderFrame(TL.toe + 2.2); coverText('LAS MANÍAS', 'DEL ESCALADOR', 'y la ciencia que hay detrás'); }
 window.renderCover = () => { renderCover(); return true; };
+window.DBG = () => ({ cam: camera.position.toArray().map(v=>+v.toFixed(2)), micro: micro.visible, rub: rubber.visible, rp: rubGeo.attributes.position.array.slice(0,6), wp: micro.getWorldPosition(new THREE.Vector3()).toArray(), par: micro.parent && micro.parent.type });
+window.OBJ = { micro, rubber, rockMicro, scene, camera };
 window.TL = TL; window.renderFrame = (t) => { renderFrame(t); return true; }; window.ready = true;

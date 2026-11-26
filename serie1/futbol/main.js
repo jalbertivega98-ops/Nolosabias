@@ -198,7 +198,7 @@ function renderFrame(t) {
       bigStat('EFECTO', 'MAGNUS', 1470, smooth(TL.magnus - TL.curve, TL.magnus - TL.curve + .3, lt), .5); });
   } else if (t < TL.socks) {
     // C · la falta de 1997: sale hacia fuera… y entra
-    const lt = t - TL.rc; const dur = TL.socks - TL.rc; const shot0 = Math.min(1.6, dur * .3); const u = smooth(shot0, shot0 + 1.6, lt);
+    const lt = t - TL.rc; const dur = TL.socks - TL.rc; const shot0 = TL.goal ? Math.max(.8, TL.goal - TL.rc - 1.6) : Math.min(1.6, dur * .3); const u = smooth(shot0, shot0 + 1.6, lt);
     wall.forEach((p, i) => { p.visible = true; p.position.set(FK0.x + 9.15 * .97, 0, FK0.z + 9.15 * .25 + (i - 1.5) * .55); p.rotation.y = Math.PI; posePlayer(p, { armUp: .15, armZ: -.4 }); });
     keeper.visible = true; keeper.position.set(L2 - .5, 0, lerp(-.8, -2.2, smooth(shot0 + .8, shot0 + 1.6, lt))); keeper.rotation.y = Math.PI; posePlayer(keeper, { spread: .25, drop: -.08, armUp: .5 });
     kicker.visible = true; const kr = smooth(0, shot0, lt); kicker.position.set(FK0.x - lerp(5, .6, kr), 0, FK0.z - lerp(2.5, .5, kr)); kicker.rotation.y = -.25; posePlayer(kicker, { run: lt * 11, amp: (1 - smooth(shot0 - .2, shot0 + .2, lt)) * 1 });

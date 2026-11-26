@@ -1,6 +1,48 @@
-# Escalada — tiempos PROVISIONALES
+# Escalada · lo que nadie te cuenta — tiempos brutos (alineación por palabra de Scribe)
 K = 1.2
-CUES = []
-MARKS = {'hook': 0.0, 'nopose': 4.43, 'toe': 5.85, 'rubber': 13.68, 'chalk': 17.92, 'mg': 19.91, 'sweat': 23.13, 'shake': 27.82, 'squeeze': 30.84, 'blood': 36.36, 'burn': 38.35, 'petado': 40.92, 'crack': 41.95, 'pulley': 45.29, 'snap': 50.88, 'injury': 52.81, 'limit': 55.38, 'honnold': 57.43, 'brand': 65.27, 'end': 68.16}
+CUES = [
+ (0.12, 3.60, "Los escaladores se compran los pies\nde gato dos tallas más pequeños."),
+ (3.96, 5.32, "Y no, no es postureo."),
+ (5.84, 8.90, "Con el dedo encogido, toda la fuerza\nse concentra en la punta."),
+ (9.38, 12.46, "Así puedes ponerte de pie en\nun canto de pocos milímetros."),
+ (13.02, 16.44, "Y la goma es tan blanda que se mete\nen cada rugosidad de la roca."),
+ (17.00, 17.92, "¿Y ese polvo blanco?"),
+ (18.46, 22.02, "Magnesio, carbonato de magnesio,\nel mismo de los gimnastas."),
+ (22.54, 26.28, "Se bebe el sudor, porque una mano mojada\nresbala mucho más que una seca."),
+ (26.82, 29.00, "¿Y por qué sacuden el brazo\ncada dos por tres?"),
+ (29.52, 32.42, "Al apretar una presa, el músculo\ndel antebrazo se hincha"),
+ (32.52, 34.06, "y aplasta sus propias venas."),
+ (34.54, 36.36, "La sangre entra, pero no sale."),
+ (36.86, 39.44, "Se carga, arde y la mano se abre sola."),
+ (39.84, 40.84, "Es ir petado."),
+ (41.40, 43.78, "¿Y ese chasquido que más de uno\nha oído en un dedo?"),
+ (44.36, 47.84, "En una regleta, todo tu peso cuelga\nde unas poleas finísimas"),
+ (47.90, 49.12, "que sujetan los tendones."),
+ (49.68, 51.64, "Si una se rompe, suena:\n¡CRAC!"),
+ (52.30, 54.22, "Es la lesión más típica de la escalada."),
+ (54.76, 56.00, "Y hay quien lo lleva al límite."),
+ (56.40, 60.88, "En 2017, Alex Honnold subió los casi\n900 metros de El Capitán"),
+ (61.06, 63.58, "sin cuerda, en menos de 4 horas."),
+ (64.60, 65.68, "¿NO LO SABÍAS?"),
+ (66.12, 67.96, "El mundo tiene más historias."),
+]
+MARKS = {'hook': 0.0, 'nopose': 3.96, 'toe': 5.84, 'rubber': 13.02, 'chalk': 17.0, 'mg': 18.46, 'sweat': 22.54, 'shake': 26.82, 'squeeze': 29.52, 'blood': 34.54, 'burn': 36.86, 'petado': 39.84, 'crack': 41.4, 'pulley': 44.36, 'rompe': 49.68, 'snap': 51.3, 'injury': 52.3, 'limit': 54.76, 'honnold': 56.4, 'brand': 64.5, 'end': 68.2}
 MUSIC = dict(seed=52, sections=[('hook','Dsus'),('rubber','Gm'),('chalk','D'),('shake','Bb'),('crack','Gm'),('limit','F'),('brand','END')], shimmer=('rubber','end'), pulses=[('burn','crack',.5)], risers=['rubber','chalk','shake','crack','limit','brand'], hits=[(0.02,.9),('nopose',.5),('petado',.6),('snap',.8),('honnold',.6),('brand',.5)])
-SFX = []
+SFX = [
+ ('impact_a', 'hook', 0, .9),
+ ('pu_wind_a', 'hook', 0, .22, dict(dur='chalk', loop=True, fo=.5)),
+ ('rs_creak_a', 'toe', .2, .4),
+ ('whoosh_b', 'rubber', 0, .4),
+ ('ab_hiss_a', 'mg', 0, .4),
+ ('ab_hiss_a', 'sweat', .2, .3),
+ ('whoosh_a', 'shake', 0, .45),
+ ('ab_pulse_a', 'blood', 0, .4, dict(dur='petado', loop=True, fi=.3, fo=.3)),
+ ('mk_gurgle_a', 'blood', .2, .25),
+ ('impact_b', 'petado', 0, .5),
+ ('rs_creak_a', 'pulley', .5, .35),
+ ('cr_snap_a', 'snap', 0, .8),
+ ('as_snap_a', 'snap', .02, .5),
+ ('pc_wind_b', 'limit', 0, .3, dict(dur='brand', loop=True, fi=.6, fo=.8)),
+ ('impact_b', 'honnold', 0, .5),
+ ('whoosh_a', 'brand', -.3, .6),
+]

@@ -1,6 +1,51 @@
-# Fútbol — tiempos PROVISIONALES (estimados por caracteres; se sustituyen por la alineación de Scribe)
+# Fútbol · lo que pasa en un partido — tiempos brutos (alineación por palabra de Scribe)
 K = 1.2
-CUES = []
-MARKS = {'hook': 0.0, 'wet': 3.05, 'toque': 9.28, 'curve': 13.71, 'side': 15.45, 'air': 17.54, 'magnus': 23.83, 'rc': 25.09, 'socks': 33.05, 'km': 36.59, 'calf': 40.36, 'pen': 45.51, 'guess': 51.26, 'study': 54.97, 'why': 63.23, 'brand': 66.59, 'end': 69.28}
-MUSIC = dict(seed=44, sections=[('hook','Dsus'),('curve','Gm'),('rc','D'),('socks','Bb'),('pen','Gm'),('study','F'),('brand','END')], shimmer=('curve','end'), pulses=[('pen','study',.5)], risers=['curve','rc','socks','pen','brand'], hits=[(0.02,.9),('magnus',.6),('rc',.5),('pen',.7),('why',.5),('brand',.5)])
-SFX = []
+CUES = [
+ (0.04, 2.56, "¿Por qué riegan el césped\njusto antes del partido?"),
+ (3.10, 5.96, "Con la hierba mojada, el balón\nresbala en vez de frenarse."),
+ (6.34, 8.62, "Va más rápido y bota\nigual en todo el campo."),
+ (9.16, 12.56, "Por eso los equipos que juegan al toque\npiden riego hasta en el descanso."),
+ (13.24, 14.66, "¿Y cómo se curva un disparo?"),
+ (15.24, 17.00, "Si golpeas el balón de lado, gira."),
+ (17.52, 20.86, "Por un lado, el aire acompaña el giro\ny por el otro choca contra él"),
+ (21.26, 23.06, "y el balón se desvía hacia ese lado."),
+ (23.50, 24.72, "Es el efecto Magnus."),
+ (25.24, 30.00, "En 1997, Roberto Carlos lanzó una falta\na más de 30 metros"),
+ (30.08, 30.98, "que salió hacia afuera"),
+ (31.50, 32.50, "y se metió dentro."),
+ (33.06, 35.78, "¿Y por qué tantos jugadores\nllevan agujeros en las medias?"),
+ (36.34, 39.64, "En un partido, un centrocampista\ncorre más de 10 kilómetros."),
+ (40.08, 42.14, "Los gemelos se hinchan,\nla media aprieta"),
+ (42.54, 44.28, "y la cortan para que\nno les dé un calambre."),
+ (44.90, 46.82, "Y lo más curioso: en un penalti,"),
+ (47.02, 50.10, "el balón tarda menos de medio\nsegundo en llegar a la portería."),
+ (50.54, 53.74, "El portero no tiene tiempo de reaccionar,\ntiene que adivinar."),
+ (54.36, 56.58, "Un estudio con más de 300 penaltis"),
+ (56.78, 59.24, "vio que los porteros se tiran\ncasi siempre a un lado,"),
+ (59.72, 61.46, "aunque quedarse en el centro paraba más."),
+ (62.08, 64.92, "Se tiran porque si no,\nparece que no lo han intentado."),
+ (65.80, 66.78, "¿NO LO SABÍAS?"),
+ (67.24, 69.08, "El mundo tiene más historias."),
+]
+MARKS = {'hook': 0.0, 'wet': 3.1, 'toque': 9.16, 'curve': 13.24, 'side': 15.24, 'air': 17.52, 'magnus': 23.5, 'rc': 25.24, 'goal': 31.5, 'socks': 33.06, 'km': 36.34, 'calf': 40.08, 'cut': 42.54, 'pen': 44.9, 'half': 47.02, 'guess': 50.54, 'study': 54.36, 'centre': 59.72, 'why': 62.08, 'brand': 65.7, 'end': 69.33}
+MUSIC = dict(seed=44, sections=[('hook','Dsus'),('curve','Gm'),('rc','D'),('socks','Bb'),('pen','Gm'),('study','F'),('brand','END')], shimmer=('curve','end'), pulses=[('pen','study',.5)], risers=['curve','rc','socks','pen','brand'], hits=[(0.02,.9),('magnus',.6),('goal',.5),('pen',.7),('why',.5),('brand',.5)])
+SFX = [
+ ('impact_a', 'hook', 0, .9),
+ ('crowd', 'hook', 0, .22, dict(dur='curve', fo=.6)),
+ ('pr_water_a', 'hook', .15, .45, dict(dur='wet', loop=True, fo=.3)),
+ ('whoosh_b', 'wet', .3, .4),
+ ('whoosh_a', 'side', .3, .45),
+ ('pc_wind_a', 'air', -.2, .3, dict(dur='magnus', loop=True, fi=.3, fo=.4)),
+ ('impact_b', 'magnus', 0, .5),
+ ('crowd', 'rc', 0, .18, dict(dur='goal', fi=.4)),
+ ('lv_thud_a', 'goal', -1.6, .6),
+ ('whoosh_b', 'goal', -1.5, .5),
+ ('crowd', 'goal', 0, .6, dict(dur=3.0, fo=1.2)),
+ ('mg_pass_a', 'km', 0, .3),
+ ('ab_pop_a', 'cut', .1, .35),
+ ('crowd', 'pen', 0, .2, dict(dur='guess', fo=.5)),
+ ('lv_thud_a', 'pen', 1.0, .6),
+ ('gp_tick_a', 'pen', 1.0, .35, dict(dur=2.6, loop=True, fo=.2)),
+ ('impact_b', 'why', 0, .45),
+ ('whoosh_a', 'brand', -.3, .6),
+]
