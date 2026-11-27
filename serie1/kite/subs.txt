@@ -1,0 +1,35 @@
+@hook ¿Cómo puede una cometa arrastrarte sobre el agua?
+
+@wing Porque no es una cometa: es un ala,|como la de un avión, pero de lado.
+
+@lift El viento la empuja… y además la aspira.
+
+@why ¿Y por qué la mueven sin parar?
+
+@fast Porque al cruzar el cielo, la cometa|va más rápido que el propio viento…
+
+@mult y su fuerza se multiplica.
+
+@window Lo llaman la ventana de viento:
+
+@zones en el centro tira con todo;|en los bordes, casi nada.
+
+@back ¿Y cómo vuelven a la playa|si el viento sopla hacia fuera?
+
+@edge La tabla clava el canto como la quilla de un velero…|y puede avanzar casi contra el viento.
+
+@lines Las líneas miden unos veinticinco metros:|allí arriba el viento es más limpio y más fuerte que en la orilla.
+
+@jump ¿Y los saltos?
+
+@high Los mejores pasan de treinta metros de altura,|como un edificio de diez plantas…
+
+@glide y bajan planeando.
+
+@spain ¿Y en España?
+
+@tarifa Tarifa: el Estrecho encajona el viento entre dos continentes|y lo convierte en uno de los sitios con más viento de Europa.
+
+@brand ¿NO LO SABÍAS?
+
+El mundo tiene más historias.

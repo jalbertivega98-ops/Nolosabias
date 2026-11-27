@@ -1,0 +1,33 @@
+@hook ¿Qué hay debajo de un volcán?
+
+@magma Roca fundida a más de mil grados: el magma.
+
+@rise Sube porque pesa menos que la roca que lo rodea,|como una gota de aceite en el agua.
+
+@gas Y dentro lleva gas disuelto,|como una botella de refresco.
+
+@why ¿Y por qué explota?
+
+@press Al subir, la presión baja…|y el gas se escapa de golpe.
+
+@fluid Si el magma es líquido, el gas sale fácil:|ríos de lava, como en La Palma.
+
+@thick Si es espeso, el gas queda atrapado…|y revienta.
+
+@slow La lava suele avanzar despacio, a pocos kilómetros por hora:|casi siempre se puede escapar andando.
+
+@pyro Lo peligroso es la nube ardiente: gas y ceniza|a cientos de grados, bajando a más de cien kilómetros por hora.
+
+@ash ¿Y la ceniza? No es ceniza:
+
+@glass es roca y cristal triturados,|que cortan como vidrio.
+
+@planes Por eso, en 2010, un volcán de Islandia|paró los aviones de media Europa.
+
+@count Y lo más curioso: en la Tierra|hay unos mil trescientos volcanes activos…
+
+@sea pero la mayor parte de la actividad volcánica|ocurre bajo el mar.
+
+@brand ¿NO LO SABÍAS?
+
+El mundo tiene más historias.

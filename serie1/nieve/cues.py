@@ -1,0 +1,47 @@
+# Nieve · por qué cada copo es distinto — tiempos brutos (alineación por palabra de ElevenLabs)
+K = 1.2
+CUES = [
+ (0.00, 2.56, "¿Por qué cada copo de nieve es distinto?"),
+ (2.88, 6.56, "Todo empieza dentro de una nube,\na unos 15 grados bajo cero,"),
+ (6.64, 8.56, "alrededor de una mota de polvo."),
+ (8.88, 12.88, "El vapor de agua se congela directamente\nsobre ella, sin pasar por líquido."),
+ (13.44, 15.64, "¿Y por qué siempre tiene seis brazos?"),
+ (15.84, 20.08, "Porque las moléculas de agua, al congelarse,\nse enganchan formando hexágonos."),
+ (20.48, 22.40, "Pero la forma depende del frío:"),
+ (22.48, 24.32, "a 2 bajo cero salen placas,"),
+ (24.40, 26.08, "a 5, agujas…"),
+ (26.12, 28.40, "y a 15, las estrellas de los dibujos."),
+ (28.88, 32.88, "Cada copo tarda casi una hora en caer,\ncruzando aire distinto…"),
+ (32.96, 35.40, "así que cada uno vive un viaje único."),
+ (35.68, 38.08, "¿Y por qué sus seis brazos son iguales?"),
+ (38.16, 40.52, "Porque crecen a la vez, en el mismo aire."),
+ (40.80, 44.00, "¿Y si el hielo es transparente,\npor qué la nieve es blanca?"),
+ (44.08, 46.80, "Porque la luz rebota\nen millones de caras diminutas"),
+ (47.04, 50.56, "y sale con todos los colores mezclados: blanco."),
+ (50.64, 55.28, "Además, la nieve recién caída es casi todo aire,\nhasta un 90 %."),
+ (55.36, 57.12, "Por eso aísla del frío…"),
+ (57.20, 63.12, "y por eso, tras una nevada, todo queda en silencio:\nese aire atrapado se traga el sonido."),
+ (63.15, 66.80, "Y si cruje al pisarla, es que estáis\na más de 10 grados bajo cero."),
+ (68.40, 69.20, "¿NO LO SABÍAS?"),
+ (69.60, 71.76, "El mundo tiene más historias."),
+]
+MARKS = {'hook': 0, 'cloud': 2.88, 'dust': 6.64, 'vapor': 8.88, 'six': 13.44, 'hex': 15.84, 'shape': 20.48, 'plates': 22.48, 'needles': 24.4, 'stars': 26.12, 'fall': 28.88, 'unique': 32.96, 'same': 35.68, 'grow': 38.16, 'white': 40.8, 'bounce': 44.08, 'mix': 47.04, 'air': 50.64, 'warm': 55.36, 'quiet': 57.2, 'crunch': 63.15, 'brand': 68.2, 'end': 72.1}
+MUSIC = dict(seed=41, sections=[('hook','Am'),('six','F'),('fall','C'),('white','G'),('air','Em'),('crunch','Am'),('brand','END')], shimmer=('hook','end'), pulses=[('fall','white',.4)], risers=['six','fall','white','air','brand'], hits=[(0.02,.8),('dust',.4),('stars',.6),('unique',.5),('mix',.6),('crunch',.5),('brand',.5)])
+SFX = [
+ ('impact_a', 'hook', 0, .6),
+ ('pc_wind_a', 'cloud', 0, .35, dict(dur='six', loop=True, fi=.4, fo=.8)),
+ ('ab_hiss_a', 'vapor', .3, .3),
+ ('mw_ding_a', 'plates', .2, .25),
+ ('mw_ding_b', 'needles', .2, .25),
+ ('mw_ding_a', 'stars', .4, .3),
+ ('whoosh_a', 'fall', 0, .45),
+ ('pc_wind_b', 'fall', .2, .25, dict(dur='same', loop=True, fi=.5, fo=.8)),
+ ('whoosh_b', 'grow', 0, .35),
+ ('lz_beam_a', 'bounce', .2, .3),
+ ('sting_a', 'mix', 2.2, .4),
+ ('pu_wind_a', 'warm', 0, .3, dict(dur='quiet', loop=True, fi=.3, fo=.6)),
+ ('cr_snap_a', 'crunch', .3, .55),
+ ('cr_snap_a', 'crunch', .9, .5),
+ ('cr_snap_a', 'crunch', 1.5, .45),
+ ('impact_b', 'brand', 0, .5),
+]
