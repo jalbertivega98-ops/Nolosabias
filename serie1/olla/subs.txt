@@ -1,0 +1,25 @@
+@hook ¿Por qué en una olla a presión|la comida se hace tan rápido?
+
+@notal Porque el agua no siempre hierve a cien grados.
+
+@escape Hierve cuando sus moléculas tienen fuerza para escapar,|empujando el aire que tienen encima.
+
+@close Si cierras la olla, el vapor no puede salir,|la presión sube…
+
+@energy y el agua necesita más energía para hervir.
+
+@double Con casi el doble de presión,|hierve a unos ciento veinte grados.
+
+@twenty Y esos veinte grados de más lo cambian todo:
+
+@three la comida se hace hasta tres veces más rápido.
+
+@valve Por eso la válvula silba:|deja escapar el vapor justo a la presión correcta.
+
+@never Y por eso nunca hay que abrirla en caliente:
+
+@burst toda esa agua por encima de cien grados|se convertiría en vapor de golpe.
+
+@everest Y al revés pasa lo mismo:|en la cima del Everest el agua hierve a unos setenta grados…
+
+@egg y un huevo duro tarda una eternidad.
