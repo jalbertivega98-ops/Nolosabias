@@ -1,0 +1,27 @@
+@hook ¿Cómo puede un velero avanzar contra el viento?
+
+@imp Parece imposible…|pero lo hace cada día.
+
+@sheet El truco: la vela no es una sábana|que el viento empuja.
+
+@wing Es un ala.
+
+@fast El aire que pasa por la cara de fuera va más rápido,|la presión baja…
+
+@suck y la vela es aspirada hacia delante,|igual que el ala de un avión hacia arriba.
+
+@side Esa fuerza también tira de lado,|y aquí entra la pieza escondida:
+
+@keel la orza, una aleta bajo el casco|que no deja que el barco derrape.
+
+@diag Entre las dos, el barco sale disparado en diagonal.
+
+@zig Por eso nunca va recto contra el viento:|va en zigzag, cambiando de bordo.
+
+@deg Se llama ceñir, y un buen velero ciñe|a unos cuarenta y cinco grados del viento.
+
+@crazy Y lo más loco: algunos barcos|van más rápido que el propio viento.
+
+@foil Los barcos con hidroalas de la Copa América|vuelan sobre el agua a casi cien kilómetros por hora…
+
+@wind con vientos de menos de cuarenta.
