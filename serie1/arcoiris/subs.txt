@@ -1,0 +1,33 @@
+@hook ¿Por qué el arcoíris|siempre es curvo?
+
+@circle Porque en realidad es un círculo.
+
+@prism Cada gota de lluvia funciona como un prisma:
+
+@enter la luz del sol entra, se dobla,|rebota en el fondo de la gota
+
+@split y sale separada en colores.
+
+@angle Pero solo sale con un ángulo concreto:|unos cuarenta y dos grados para el rojo
+
+@violet y cuarenta para el violeta.
+
+@shadow Así que solo ves color en las gotas que están|justo a ese ángulo de la sombra de tu cabeza.
+
+@ring Y todos esos puntos forman un círculo.
+
+@ground El suelo corta la mitad de abajo…
+
+@plane pero desde un avión se puede ver entero.
+
+@behind Por eso el sol tiene que estar detrás de ti,|y bajo:
+
+@noon a mediodía en verano|casi nunca hay arcoíris.
+
+@double Si la luz rebota dos veces dentro de la gota,
+
+@second aparece un segundo arco,|más grande y con los colores al revés.
+
+@own Y lo más curioso: cada persona ve|su propio arcoíris, hecho con gotas distintas.
+
+@never Nunca hay dos iguales.
