@@ -1,0 +1,23 @@
+@hook ¿Cuántas partidas de ajedrez distintas|se pueden jugar?
+
+@one Después de una sola jugada de cada uno,|ya hay cuatrocientas posiciones posibles.
+
+@two Después de dos, más de setenta mil.
+
+@whole ¿Y en una partida entera?
+
+@shannon El matemático Claude Shannon calculó|que hay unas diez elevado a ciento veinte.
+
+@zeros Un uno seguido de ciento veinte ceros.
+
+@atoms Para que te hagas una idea: en todo el universo observable|hay unos diez elevado a ochenta átomos.
+
+@more Hay muchísimas más partidas de ajedrez|que átomos en el universo.
+
+@unique Por eso, en cuanto se sale de la apertura,|casi cualquier partida acaba siendo única en la historia.
+
+@machines Y aun así, las máquinas ya nos ganan:
+
+@deep en mil novecientos noventa y siete, Deep Blue|derrotó al campeón del mundo, Garri Kaspárov.
+
+@phone Y hoy, un programa en tu móvil|juega mejor que cualquier humano.
