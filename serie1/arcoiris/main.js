@@ -259,7 +259,7 @@ function renderFrame(t) {
   for (const h of hud) h();
   finish(scene, { t, flash, ca, fade, bloom: bloomS, expo });
 }
-function renderCover() { renderFrame(TL.circle - .25); coverText('¿POR QUÉ EL ARCOÍRIS', 'ES CURVO?', 'en realidad es un círculo'); }
+function renderCover() { renderFrame(TL.circle - .25); coverText('¿POR QUÉ EL', 'ARCOÍRIS ES CURVO?', 'en realidad es un círculo'); }
 window.renderCover = () => { renderCover(); return true; };
 window.OBJ = { PS, scene };
 window.TL = TL; window.renderFrame = (t) => { renderFrame(t); return true; }; window.ready = true;
