@@ -1,0 +1,45 @@
+# Moto · secretos de las motos de carreras — tiempos brutos (alineación por palabra de ElevenLabs)
+K = 1.2
+CUES = [
+ (0.00, 2.52, "¿Por qué los pilotos de moto sacan la rodilla?"),
+ (2.80, 6.16, "Porque en curva la moto se tumba\nmás de 60 grados,"),
+ (6.20, 8.24, "y la rodilla les sirve de sensor:"),
+ (8.28, 13.20, "cuando el deslizador roza el asfalto,\nsaben exactamente cuánto van inclinados."),
+ (13.44, 15.36, "¿Y cómo tumban la moto tan rápido?"),
+ (15.76, 18.08, "Con un truco que casi nadie conoce:"),
+ (18.16, 21.84, "para girar a la derecha, empujan\nel manillar derecho hacia delante."),
+ (22.08, 23.36, "Giran al revés…"),
+ (23.40, 25.44, "y la moto se inclina hacia donde quieren ir."),
+ (25.84, 27.44, "Se llama contramanillar."),
+ (27.84, 28.96, "¿Y cómo no se caen?"),
+ (29.36, 33.92, "Toda la moto se agarra al suelo con dos trozos\nde goma del tamaño de una tarjeta de crédito."),
+ (34.40, 37.84, "Por eso calientan las ruedas\ncon mantas eléctricas antes de salir:"),
+ (37.92, 39.64, "la goma fría no agarra."),
+ (39.84, 43.44, "Y al frenar, los discos de carbono\npasan de los 800 grados"),
+ (43.52, 44.96, "y se ponen al rojo vivo."),
+ (45.36, 50.56, "La frenada es tan bestia que el piloto empuja\ncontra el manillar con más fuerza que su propio peso."),
+ (51.04, 54.84, "Por eso pueden perder hasta 2 kilos\nde sudor en una sola carrera."),
+ (55.04, 56.08, "¿Y lo más rápido?"),
+ (56.32, 61.04, "Una MotoGP ha llegado\na 366 km/h en recta."),
+ (62.46, 63.40, "¿NO LO SABÍAS?"),
+ (63.60, 65.84, "El mundo tiene más historias."),
+]
+MARKS = {'hook': 0.0, 'lean': 2.8, 'sensor': 6.2, 'touch': 8.28, 'how': 13.44, 'trick': 15.76, 'push': 18.16, 'reverse': 22.08, 'fall': 23.4, 'name': 25.84, 'grip': 27.84, 'card': 29.36, 'warm': 34.4, 'cold': 37.92, 'brake': 39.84, 'red': 43.52, 'force': 45.36, 'sweat': 51.04, 'fast': 55.04, 'speed': 56.32, 'brand': 62.3, 'end': 66.2}
+MUSIC = dict(seed=91, sections=[('hook','Em'),('how','C'),('grip','Am'),('brake','Em'),('fast','B'),('brand','END')], shimmer=('how','end'), pulses=[('brake','fast',.5)], risers=['how','grip','brake','fast','brand'], hits=[(0.02,.9),('touch',.5),('name',.6),('card',.5),('red',.6),('force',.5),('speed',.7),('brand',.5)])
+SFX = [
+ ('moto_flyby', 'hook', 0, .8),
+ ('impact_a', 'hook', .05, .6),
+ ('as_snap_a', 'touch', .4, .45),
+ ('whoosh_a', 'push', .3, .45),
+ ('whoosh_b', 'fall', 0, .5),
+ ('impact_b', 'name', 0, .5),
+ ('lv_thud_a', 'card', 1.2, .4),
+ ('oj_zap_a', 'warm', .3, .3),
+ ('moto_brake', 'brake', 0, .75),
+ ('lz_beam_a', 'red', 0, .35),
+ ('impact_a', 'force', .6, .5),
+ ('ac_drip_a', 'sweat', .5, .4),
+ ('pc_wind_b', 'speed', 0, .4, dict(dur='brand', loop=True, fi=.4, fo=.8)),
+ ('moto_flyby', 'speed', .6, .8),
+ ('whoosh_a', 'brand', -.3, .6),
+]
