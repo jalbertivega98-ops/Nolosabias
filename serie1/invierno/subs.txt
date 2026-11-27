@@ -1,0 +1,33 @@
+@hook En invierno, la Tierra está más cerca del Sol|que en verano.
+
+@why Entonces, ¿por qué hace frío?
+
+@dist A principios de enero estamos a unos cinco millones|de kilómetros menos que en julio…
+
+@nothing pero eso apenas cambia nada.
+
+@tilt Lo que manda es la inclinación:|la Tierra va torcida, unos veintitrés grados y medio.
+
+@away En invierno, nuestro hemisferio mira hacia fuera:
+
+@rays los rayos llegan tumbados, y la misma luz|se reparte en un suelo mucho más grande.
+
+@torch Haz la prueba con una linterna:
+
+@front de frente, un círculo brillante;
+
+@tilted inclinada, una mancha larga y floja.
+
+@short Además, el día es más corto:
+
+@madrid en Madrid, el veintiuno de diciembre|hay unas nueve horas de luz;
+
+@june en junio, más de quince.
+
+@less Menos horas, y cada rayo calienta menos.
+
+@aus Mientras tanto, en Australia es verano:|celebran la Navidad en la playa.
+
+@lag Y lo más curioso:|el día más frío no es el más corto.
+
+@weeks El suelo y el mar tardan semanas en enfriarse,|por eso el frío de verdad llega en enero.
