@@ -1,0 +1,31 @@
+@hook ¿Por qué las pelotas de golf|tienen agujeros?
+
+@half Porque una pelota lisa|volaría más o menos la mitad.
+
+@layer Al avanzar, el aire se pega a la pelota|en una capa muy fina…
+
+@early y en una pelota lisa se despega muy pronto,
+
+@wake dejando detrás un remolino enorme que la frena.
+
+@dimples Los hoyuelos agitan esa capa,|la vuelven turbulenta,
+
+@stick y así el aire se queda pegado más tiempo.
+
+@small La estela se hace mucho más pequeña…
+
+@drag y la resistencia cae casi a la mitad.
+
+@spin Además, el palo le da un giro hacia atrás:
+
+@down la pelota desvía el aire hacia abajo,|y el aire la empuja hacia arriba.
+
+@glide Por eso sube y planea.
+
+@count Suele tener entre trescientos|y quinientos hoyuelos.
+
+@accident Y lo más curioso:|se descubrió por accidente.
+
+@old En el siglo diecinueve, los golfistas notaron|que las pelotas viejas, llenas de golpes,
+
+@farther volaban más lejos que las nuevas.
